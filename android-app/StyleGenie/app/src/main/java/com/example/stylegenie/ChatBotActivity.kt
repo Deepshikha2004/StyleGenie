@@ -6,6 +6,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.speech.RecognizerIntent
+import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -14,12 +15,15 @@ import java.util.*
 class ChatBotActivity : AppCompatActivity() {
 
     private lateinit var chatContainer: LinearLayout
+    private lateinit var imagePreview: ImageView
     private lateinit var inputEditText: EditText
     private lateinit var sendButton: ImageButton
     private lateinit var btnRestart: Button
     private lateinit var chatScrollView: ScrollView
     private lateinit var btnUploadImage: ImageButton
     private lateinit var btnRecord: ImageButton
+
+
 
     private var selectedImageUri: Uri? = null
 
@@ -32,6 +36,7 @@ class ChatBotActivity : AppCompatActivity() {
 
         // Bind views
         chatContainer = findViewById(R.id.chatContainer)
+        imagePreview = findViewById(R.id.imagePreview)
         inputEditText = findViewById(R.id.inputEditText)
         sendButton = findViewById(R.id.sendButton)
         btnRestart = findViewById(R.id.btnRestart)
@@ -39,26 +44,42 @@ class ChatBotActivity : AppCompatActivity() {
         btnUploadImage = findViewById(R.id.btnUploadImage)
         btnRecord = findViewById(R.id.btnRecord)
 
-        // Send button click
+        // 📤 Send button click
         sendButton.setOnClickListener {
             val message = inputEditText.text.toString().trim()
+            val imageTag = inputEditText.tag
 
-            // 👇 Check if an image was selected
-            if (selectedImageUri != null) {
-                addImageMessage(selectedImageUri!!)
-                selectedImageUri = null
-                inputEditText.setText("") // clear after sending
-                addMessage("Bot: Nice picture!", isUser = false)
-                return@setOnClickListener
-            }
+            if (imageTag is Uri) {
+                // Add selected image to chat
+                val imageView = ImageView(this).apply {
+                    layoutParams = LinearLayout.LayoutParams(400, 400).apply {
+                        setMargins(8, 8, 8, 8)
+                        gravity = android.view.Gravity.END
+                    }
+                    setImageURI(imageTag)
+                }
+                chatContainer.addView(imageView)
 
-            if (message.isNotEmpty()) {
+                if (message.isNotEmpty()) {
+                    addMessage(message, isUser = true)
+                }
+
+                // Clear after send
+                inputEditText.text.clear()
+                inputEditText.tag = null
+                imagePreview.setImageDrawable(null)
+                imagePreview.visibility = View.GONE
+
+                scrollToBottom()
+                simulateBotTyping("Bot: Nice image! I'm still learning to give better replies.")
+            } else if (message.isNotEmpty()) {
                 addMessage(message, isUser = true)
                 inputEditText.text.clear()
-                simulateBotTyping("Bot: I'm still learning to respond!")
-
+                simulateBotTyping("Bot: Got your message!")
             }
         }
+
+
 
         // Restart chat
         btnRestart.setOnClickListener {
@@ -89,7 +110,14 @@ class ChatBotActivity : AppCompatActivity() {
                 Toast.makeText(this, "Speech recognition not supported", Toast.LENGTH_SHORT).show()
             }
         }
+        imagePreview.setOnClickListener {
+            inputEditText.tag = null
+            imagePreview.setImageDrawable(null)
+            imagePreview.visibility = View.GONE
+            Toast.makeText(this, "Image removed", Toast.LENGTH_SHORT).show()
+        }
     }
+
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
@@ -100,7 +128,7 @@ class ChatBotActivity : AppCompatActivity() {
                     val uri = data?.data
                     if (uri != null) {
                         selectedImageUri = uri
-                        inputEditText.setText("Image selected. Click send to send it.")
+                        //inputEditText.setText("Image selected. Click send to send it.")
                     }
                 }
 
@@ -109,7 +137,18 @@ class ChatBotActivity : AppCompatActivity() {
                     val spokenText = result?.get(0) ?: ""
                     inputEditText.setText(spokenText)
                 }
+
             }
+            if (requestCode == IMAGE_PICK_CODE) {
+                val imageUri: Uri? = data?.data
+                imageUri?.let {
+                    //inputEditText.setText("[Image Selected]")
+                    inputEditText.tag = it
+                    imagePreview.setImageURI(it)
+                    imagePreview.visibility = View.VISIBLE
+                }
+            }
+
         }
     }
 

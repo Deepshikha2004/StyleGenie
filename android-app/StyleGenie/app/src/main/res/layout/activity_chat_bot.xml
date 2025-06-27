@@ -69,6 +69,16 @@
         android:background="#FFFFFF"
         android:elevation="4dp">
 
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="4dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:background="@drawable/bg_button_round" />
+
+
         <EditText
             android:id="@+id/inputEditText"
             android:layout_width="0dp"
