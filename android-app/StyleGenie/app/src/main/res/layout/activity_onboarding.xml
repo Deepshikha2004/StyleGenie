@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EADCD3">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StyleGenie"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <!-- Center Image -->
+    <ImageView
+        android:id="@+id/centerImage"
+        android:layout_width="341dp"
+        android:layout_height="453dp"
+        android:layout_margin="24dp"
+        android:background="@drawable/rounded_image_bg"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fashion_image"
+        app:layout_constraintBottom_toTopOf="@id/loginOptions"
+        app:layout_constraintDimensionRatio="3:4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleText" />
+
+    <!-- Login Options Text -->
+    <TextView
+        android:id="@+id/loginOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up Or Log In"
+        android:textColor="#000"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/centerImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp" />
+
+    <!-- Google Icon -->
+    <ImageView
+        android:id="@+id/googleIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_google"
+        android:background="@drawable/rounded_white"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="24dp" />
+
+    <!-- Get Started Button -->
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Get Started →"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#0E0E0E"
+        app:layout_constraintStart_toEndOf="@id/googleIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/googleIcon"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

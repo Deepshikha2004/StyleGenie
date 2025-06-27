@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">StyleGenie</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="create_account">Create Account</string>
+    <string name="or">or</string>
+    <string name="all">All</string>
+    <string name="shirts">Shirts</string>
+    <string name="ethnic">Ethnic</string>
+    <string name="men">Men</string>
+    <string name="pants">Pants</string>
+    <string name="kids">Kids</string>
+    <string name="women">Women</string>
+    <string name="search">Search</string>
+    <string name="all_collection">All Collection</string>
+    <string name="stylegenie">StyleGenie</string>
+    <string name="todo">TODO</string>
+    <string name="to_do">TODO</string>
+    <string name="mens">Men</string>
+    <string name="womens">Women</string>
+    <string name="kid">Kids</string>
+    <string name="pant">Pants</string>
+    <string name="alll">All</string>
+    <string name="shirt">Shirts</string>
+    <string name="searchs">Search</string>
+    <string name="ethnics">Ethnic</string>
+    <string name="all_collections">All Collection</string>
+    <string name="cart">Cart</string>
+    <string name="menu">Menu</string>
+    <string name="stylegenies">StyleGenie</string>
+</resources>
