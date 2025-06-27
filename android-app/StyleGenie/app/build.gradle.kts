@@ -1,7 +1,9 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrains.kotlin.android)
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services") // ✅ Apply the plugin here
 }
+
 
 android {
     namespace = "com.example.stylegenie"
@@ -58,4 +60,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-database-ktx") // ✅ For Realtime Database
+
+    // Optional:
+    // implementation("com.google.firebase:firebase-firestore-ktx") // If using Firestore instead
+
 }

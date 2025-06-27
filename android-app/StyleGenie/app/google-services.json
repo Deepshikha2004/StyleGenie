@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "931245647077",
+    "project_id": "stylegenie-9c50a",
+    "storage_bucket": "stylegenie-9c50a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931245647077:android:0314aab6543fc96108e00c",
+        "android_client_info": {
+          "package_name": "com.example.stylegenie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDpDukADy4tw6aZkB2lk-WSuxIJQrBuik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
