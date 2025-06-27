@@ -23,10 +23,10 @@ class HomeActivity : AppCompatActivity() {
         recyclerView.setHasFixedSize(true)
 
         val products = listOf(
-            Product(R.drawable.ic_launcher_background, "Floral Dress", "₹999"),
+            Product(R.drawable.fashion_image2, "Floral Dress", "₹999"),
             Product(R.drawable.ic_launcher_background, "Summer Skirt", "₹599"),
-            Product(R.drawable.ic_launcher_background, "Cotton Kurta", "₹749"),
-            Product(R.drawable.ic_launcher_background, "Blue Shirt", "₹899"),
+            Product(R.drawable.fashion_image, "Cotton Kurta", "₹749"),
+            Product(R.drawable.fashion_image2, "Blue Shirt", "₹899"),
             Product(R.drawable.ic_launcher_background, "Kids Set", "₹499")
         )
 

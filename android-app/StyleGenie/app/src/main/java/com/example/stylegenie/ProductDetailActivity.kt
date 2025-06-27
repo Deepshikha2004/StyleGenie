@@ -51,6 +51,7 @@ class ProductDetailActivity : AppCompatActivity() {
         // Back button functionality
         btnBack.setOnClickListener {
             finish()
+            overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
         }
 
         // Quantity handling
