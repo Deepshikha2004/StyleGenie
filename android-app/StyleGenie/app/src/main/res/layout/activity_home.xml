@@ -71,6 +71,7 @@
                 app:layout_constraintEnd_toEndOf="parent">
 
                 <EditText
+                    android:id="@+id/etSearch"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="@string/searchs"
@@ -83,6 +84,7 @@
                     android:background="@android:color/transparent"
                     android:textColor="#000"
                     android:textColorHint="#757575" />
+
             </androidx.cardview.widget.CardView>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>

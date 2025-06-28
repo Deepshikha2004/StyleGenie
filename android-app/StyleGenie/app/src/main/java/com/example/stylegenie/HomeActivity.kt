@@ -2,8 +2,11 @@ package com.example.stylegenie
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.util.Log
 import android.view.View
+import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -22,6 +25,8 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var databaseRef: DatabaseReference
     private lateinit var progressBar: ProgressBar
     private lateinit var chipGroup: ChipGroup
+    private lateinit var etSearch: EditText
+
 
     private val productList = mutableListOf<Product>()
 
@@ -34,6 +39,18 @@ class HomeActivity : AppCompatActivity() {
         recyclerView = findViewById(R.id.rvProducts)
         bottomNavigationView = findViewById(R.id.bottomNav)
         chipGroup = findViewById(R.id.chipGroupCategories)
+        etSearch = findViewById(R.id.etSearch)
+
+        etSearch.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                filterProducts(s.toString())
+            }
+
+            override fun afterTextChanged(s: Editable?) {}
+        })
+
 
         // 🔄 Setup RecyclerView
         recyclerView.layoutManager = GridLayoutManager(this, 2)
@@ -55,6 +72,14 @@ class HomeActivity : AppCompatActivity() {
         // 🔧 Bottom nav
         setupBottomNav()
     }
+    private fun filterProducts(query: String) {
+        val filteredList = productList.filter {
+            it.category.contains(query, ignoreCase = true) ||
+                    it.category.contains(query, ignoreCase = true)
+        }
+        productAdapter.updateList(filteredList)
+    }
+
 
     private fun setupCategoryFilters() {
         chipGroup.setOnCheckedChangeListener { _, checkedId ->
