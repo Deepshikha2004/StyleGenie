@@ -3,7 +3,7 @@
         "id": "id_00000952",
         "category": "Sweaters",
         "gender": "Men",
-        "img_path": "/img/Men/Sweaters/id_00000952",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Sweaters/id_00000952",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -18,13 +18,14 @@
         "fabric": "cotton blend",
         "occasion": "holiday season",
         "season": "warm weather",
-        "special_design": "embroidery, print, graphic"
+        "special_design": "embroidery, print, graphic",
+        "price": 999
     },
     {
         "id": "id_00000911",
         "category": "Sweaters",
         "gender": "Men",
-        "img_path": "/img/Men/Sweaters/id_00000911",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Sweaters/id_00000911",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -40,13 +41,14 @@
         "fabric": "soft cotton",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "logo graphic"
+        "special_design": "logo graphic",
+        "price": 1299
     },
     {
         "id": "id_00007966",
         "category": "Tees_Tanks",
         "gender": "Men",
-        "img_path": "/img/Men/Tees_Tanks/id_00007966",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Tees_Tanks/id_00007966",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -62,13 +64,14 @@
         "fabric": "Cotton",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "Graphic Print"
+        "special_design": "Graphic Print",
+        "price": 999
     },
     {
         "id": "id_00005834",
         "category": "Tees_Tanks",
         "gender": "Men",
-        "img_path": "/img/Men/Tees_Tanks/id_00005834",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Tees_Tanks/id_00005834",
         "images": [
             "07_1_front.jpg",
             "07_2_side.jpg",
@@ -99,13 +102,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "pattern, print, stripe"
+        "special_design": "pattern, print, stripe",
+        "price": 2299
     },
     {
         "id": "id_00007301",
         "category": "Tees_Tanks",
         "gender": "Men",
-        "img_path": "/img/Men/Tees_Tanks/id_00007301",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Tees_Tanks/id_00007301",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -164,13 +168,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "pattern"
+        "special_design": "pattern",
+        "price": 399
     },
     {
         "id": "id_00007748",
         "category": "Tees_Tanks",
         "gender": "Men",
-        "img_path": "/img/Men/Tees_Tanks/id_00007748",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Tees_Tanks/id_00007748",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -186,13 +191,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "pattern, print, stripe"
+        "special_design": "pattern, print, stripe",
+        "price": 1499
     },
     {
         "id": "id_00007770",
         "category": "Tees_Tanks",
         "gender": "Men",
-        "img_path": "/img/Men/Tees_Tanks/id_00007770",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Tees_Tanks/id_00007770",
         "images": [
             "01_1_front.jpg",
             "01_4_full.jpg",
@@ -212,13 +218,14 @@
         "fabric": "linen blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "built-in bra"
+        "special_design": "built-in bra",
+        "price": 399
     },
     {
         "id": "id_00004117",
         "category": "Tees_Tanks",
         "gender": "Men",
-        "img_path": "/img/Men/Tees_Tanks/id_00004117",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Tees_Tanks/id_00004117",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -295,13 +302,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "logo, pattern, pocket, print"
+        "special_design": "logo, pattern, pocket, print",
+        "price": 999
     },
     {
         "id": "id_00000337",
         "category": "Shorts",
         "gender": "Men",
-        "img_path": "/img/Men/Shorts/id_00000337",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Shorts/id_00000337",
         "images": [
             "07_1_front.jpg",
             "07_2_side.jpg",
@@ -346,13 +354,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "pattern"
+        "special_design": "pattern",
+        "price": 1499
     },
     {
         "id": "id_00002110",
         "category": "Shorts",
         "gender": "Men",
-        "img_path": "/img/Men/Shorts/id_00002110",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Shorts/id_00002110",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -425,13 +434,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "logo, pattern, pocket, print"
+        "special_design": "logo, pattern, pocket, print",
+        "price": 1499
     },
     {
         "id": "id_00001015",
         "category": "Shorts",
         "gender": "Men",
-        "img_path": "/img/Men/Shorts/id_00001015",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Shorts/id_00001015",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -448,13 +458,14 @@
         "fabric": "cotton",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "logo, pattern, print"
+        "special_design": "logo, pattern, print",
+        "price": 1499
     },
     {
         "id": "id_00001636",
         "category": "Shorts",
         "gender": "Men",
-        "img_path": "/img/Men/Shorts/id_00001636",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Shorts/id_00001636",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -471,13 +482,14 @@
         "fabric": "cotton blend",
         "occasion": "everyday",
         "season": "cooler months",
-        "special_design": "ripped knee, drawstring waist"
+        "special_design": "ripped knee, drawstring waist",
+        "price": 999
     },
     {
         "id": "id_00000847",
         "category": "Shorts",
         "gender": "Men",
-        "img_path": "/img/Men/Shorts/id_00000847",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Shorts/id_00000847",
         "images": [
             "05_1_front.jpg",
             "05_2_side.jpg",
@@ -506,13 +518,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "pocket"
+        "special_design": "pocket",
+        "price": 599
     },
     {
         "id": "id_00004423",
         "category": "Sweatshirts_Hoodies",
         "gender": "Men",
-        "img_path": "/img/Men/Sweatshirts_Hoodies/id_00004423",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Sweatshirts_Hoodies/id_00004423",
         "images": [
             "01_1_front.jpg",
             "01_3_back.jpg",
@@ -530,13 +543,14 @@
         "fabric": "lightweight knit",
         "occasion": "layering or lounging",
         "season": "spring/fall",
-        "special_design": "removable hood, drawstring waist, stand collar"
+        "special_design": "removable hood, drawstring waist, stand collar",
+        "price": 1899
     },
     {
         "id": "id_00007804",
         "category": "Sweatshirts_Hoodies",
         "gender": "Men",
-        "img_path": "/img/Men/Sweatshirts_Hoodies/id_00007804",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Sweatshirts_Hoodies/id_00007804",
         "images": [
             "09_1_front.jpg",
             "09_2_side.jpg",
@@ -582,13 +596,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "summer",
-        "special_design": "pocket"
+        "special_design": "pocket",
+        "price": 999
     },
     {
         "id": "id_00005575",
         "category": "Sweatshirts_Hoodies",
         "gender": "Men",
-        "img_path": "/img/Men/Sweatshirts_Hoodies/id_00005575",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Sweatshirts_Hoodies/id_00005575",
         "images": [
             "01_1_front.jpg",
             "01_3_back.jpg",
@@ -604,13 +619,14 @@
         "fabric": "cotton blend, fleece blend, wool, cashmere",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "logo print, monogram motif"
+        "special_design": "logo print, monogram motif",
+        "price": 399
     },
     {
         "id": "id_00005209",
         "category": "Sweatshirts_Hoodies",
         "gender": "Men",
-        "img_path": "/img/Men/Sweatshirts_Hoodies/id_00005209",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Sweatshirts_Hoodies/id_00005209",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -627,13 +643,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "logo, pattern, print"
+        "special_design": "logo, pattern, print",
+        "price": 1899
     },
     {
         "id": "id_00002315",
         "category": "Sweatshirts_Hoodies",
         "gender": "Men",
-        "img_path": "/img/Men/Sweatshirts_Hoodies/id_00002315",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Sweatshirts_Hoodies/id_00002315",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -676,13 +693,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "summer",
-        "special_design": "pattern, pocket"
+        "special_design": "pattern, pocket",
+        "price": 1899
     },
     {
         "id": "id_00000881",
         "category": "Sweatshirts_Hoodies",
         "gender": "Men",
-        "img_path": "/img/Men/Sweatshirts_Hoodies/id_00000881",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Sweatshirts_Hoodies/id_00000881",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -707,13 +725,14 @@
         "fabric": "cotton, wool, soft cotton blend",
         "occasion": "casual, layering, warm weather",
         "season": "summer",
-        "special_design": "hood with drawstring waist, hood with pouch, slouchy fit, crisp stripe pattern, ruched front, drapey side slit, drapey cowl, zip closure"
+        "special_design": "hood with drawstring waist, hood with pouch, slouchy fit, crisp stripe pattern, ruched front, drapey side slit, drapey cowl, zip closure",
+        "price": 999
     },
     {
         "id": "id_00001831",
         "category": "Sweatshirts_Hoodies",
         "gender": "Men",
-        "img_path": "/img/Men/Sweatshirts_Hoodies/id_00001831",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Sweatshirts_Hoodies/id_00001831",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -747,13 +766,14 @@
         "fabric": "cotton blend ",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "hood with zip , zip pocket,zip "
+        "special_design": "hood with zip , zip pocket,zip ",
+        "price": 1499
     },
     {
         "id": "id_00000932",
         "category": "Suiting",
         "gender": "Men",
-        "img_path": "/img/Men/Suiting/id_00000932",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Suiting/id_00000932",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -768,13 +788,14 @@
         "fabric": "cotton blend, italian wool, silk",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "kimono inspired silhouette, bold geometric print, bold polka dot pattern"
+        "special_design": "kimono inspired silhouette, bold geometric print, bold polka dot pattern",
+        "price": 999
     },
     {
         "id": "id_00003009",
         "category": "Shirts_Polos",
         "gender": "Men",
-        "img_path": "/img/Men/Shirts_Polos/id_00003009",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Shirts_Polos/id_00003009",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -814,13 +835,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "summer",
-        "special_design": "pattern, print, stripe"
+        "special_design": "pattern, print, stripe",
+        "price": 1499
     },
     {
         "id": "id_00000193",
         "category": "Shirts_Polos",
         "gender": "Men",
-        "img_path": "/img/Men/Shirts_Polos/id_00000193",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Shirts_Polos/id_00000193",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -857,13 +879,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "summer",
-        "special_design": "pattern, print"
+        "special_design": "pattern, print",
+        "price": 1899
     },
     {
         "id": "id_00000562",
         "category": "Shirts_Polos",
         "gender": "Men",
-        "img_path": "/img/Men/Shirts_Polos/id_00000562",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Shirts_Polos/id_00000562",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -879,13 +902,14 @@
         "fabric": "cotton",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "floral print"
+        "special_design": "floral print",
+        "price": 599
     },
     {
         "id": "id_00001866",
         "category": "Shirts_Polos",
         "gender": "Men",
-        "img_path": "/img/Men/Shirts_Polos/id_00001866",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Shirts_Polos/id_00001866",
         "images": [
             "05_1_front.jpg",
             "05_2_side.jpg",
@@ -915,13 +939,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "pattern, print, stripe"
+        "special_design": "pattern, print, stripe",
+        "price": 1499
     },
     {
         "id": "id_00001138",
         "category": "Shirts_Polos",
         "gender": "Men",
-        "img_path": "/img/Men/Shirts_Polos/id_00001138",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Shirts_Polos/id_00001138",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -936,13 +961,14 @@
         "fabric": "lightweight blend of cotton and silk",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "bold animal print, color blocked pattern"
+        "special_design": "bold animal print, color blocked pattern",
+        "price": 599
     },
     {
         "id": "id_00003489",
         "category": "Shirts_Polos",
         "gender": "Men",
-        "img_path": "/img/Men/Shirts_Polos/id_00003489",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Shirts_Polos/id_00003489",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -983,13 +1009,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "pattern, print, stripe"
+        "special_design": "pattern, print, stripe",
+        "price": 2299
     },
     {
         "id": "id_00000846",
         "category": "Shirts_Polos",
         "gender": "Men",
-        "img_path": "/img/Men/Shirts_Polos/id_00000846",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Shirts_Polos/id_00000846",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1029,13 +1056,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "logo, pattern, print, stripe"
+        "special_design": "logo, pattern, print, stripe",
+        "price": 2299
     },
     {
         "id": "id_00000089",
         "category": "Denim",
         "gender": "Men",
-        "img_path": "/img/Men/Denim/id_00000089",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Denim/id_00000089",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1119,13 +1147,14 @@
         "fabric": "cotton",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "pattern, pocket, print, stripe"
+        "special_design": "pattern, pocket, print, stripe",
+        "price": 999
     },
     {
         "id": "id_00000826",
         "category": "Denim",
         "gender": "Men",
-        "img_path": "/img/Men/Denim/id_00000826",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Denim/id_00000826",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1156,13 +1185,14 @@
         "fabric": "cotton, linen, stretch denim",
         "occasion": "work, casual day to night",
         "season": "spring/fall",
-        "special_design": "slouchy, tapered, ripped knee, raw hem, faded, whiskered, vintage edge"
+        "special_design": "slouchy, tapered, ripped knee, raw hem, faded, whiskered, vintage edge",
+        "price": 599
     },
     {
         "id": "id_00000844",
         "category": "Pants",
         "gender": "Men",
-        "img_path": "/img/Men/Pants/id_00000844",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Pants/id_00000844",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1178,13 +1208,14 @@
         "fabric": "unknown",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "pocket, print"
+        "special_design": "pocket, print",
+        "price": 599
     },
     {
         "id": "id_00001098",
         "category": "Pants",
         "gender": "Men",
-        "img_path": "/img/Men/Pants/id_00001098",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Pants/id_00001098",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -1200,13 +1231,14 @@
         "fabric": "soft cotton blend fleece",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "tonal chevron pattern, geometric design"
+        "special_design": "tonal chevron pattern, geometric design",
+        "price": 799
     },
     {
         "id": "id_00000114",
         "category": "Pants",
         "gender": "Men",
-        "img_path": "/img/Men/Pants/id_00000114",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Pants/id_00000114",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1242,13 +1274,14 @@
         "fabric": "cotton",
         "occasion": "casual",
         "season": "unknown",
-        "special_design": "stripes"
+        "special_design": "stripes",
+        "price": 1499
     },
     {
         "id": "id_00003336",
         "category": "Jackets_Vests",
         "gender": "Men",
-        "img_path": "/img/Men/Jackets_Vests/id_00003336",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Jackets_Vests/id_00003336",
         "images": [
             "05_1_front.jpg",
             "05_2_side.jpg",
@@ -1291,13 +1324,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "summer",
-        "special_design": "pocket"
+        "special_design": "pocket",
+        "price": 999
     },
     {
         "id": "id_00000653",
         "category": "Jackets_Vests",
         "gender": "Men",
-        "img_path": "/img/Men/Jackets_Vests/id_00000653",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Jackets_Vests/id_00000653",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1322,13 +1356,14 @@
         "fabric": "cotton blend",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "none"
+        "special_design": "none",
+        "price": 799
     },
     {
         "id": "id_00001903",
         "category": "Jackets_Vests",
         "gender": "Men",
-        "img_path": "/img/Men/Jackets_Vests/id_00001903",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Jackets_Vests/id_00001903",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1346,13 +1381,14 @@
         "fabric": "unknown",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "pocket"
+        "special_design": "pocket",
+        "price": 399
     },
     {
         "id": "id_00000084",
         "category": "Jackets_Vests",
         "gender": "Men",
-        "img_path": "/img/Men/Jackets_Vests/id_00000084",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Jackets_Vests/id_00000084",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -1380,13 +1416,14 @@
         "fabric": "cotton blend, nylon, cotton, wool, cotton blend fleece",
         "occasion": "casual, cold weather adventure, warm weather, modern",
         "season": "summer",
-        "special_design": "zip closure, drawstring waist, removable hood, color blocked, bold logo"
+        "special_design": "zip closure, drawstring waist, removable hood, color blocked, bold logo",
+        "price": 2299
     },
     {
         "id": "id_00005943",
         "category": "Blazers",
         "gender": "Men",
-        "img_path": "/img/Men/Blazers/id_00005943",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Blazers/id_00005943",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1412,13 +1449,14 @@
         "fabric": "water resistant, wool, cotton",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "removable hood, adjustable waist, water repellent finish"
+        "special_design": "removable hood, adjustable waist, water repellent finish",
+        "price": 2299
     },
     {
         "id": "id_00002173",
         "category": "Blazers",
         "gender": "Men",
-        "img_path": "/img/Men/Blazers/id_00002173",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Blazers/id_00002173",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -1435,13 +1473,14 @@
         "fabric": "unknown",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "none"
+        "special_design": "none",
+        "price": 399
     },
     {
         "id": "id_00006912",
         "category": "Blazers",
         "gender": "Men",
-        "img_path": "/img/Men/Blazers/id_00006912",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Men/Blazers/id_00006912",
         "images": [
             "06_1_front.jpg",
             "06_2_side.jpg",
@@ -1466,13 +1505,14 @@
         "fabric": "cotton blend",
         "occasion": "casual, everyday, weekend getaway",
         "season": "spring/fall",
-        "special_design": "notched lapel, double breasted"
+        "special_design": "notched lapel, double breasted",
+        "price": 399
     },
     {
         "id": "id_00000387",
         "category": "Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Shirts/id_00000387",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shirts/id_00000387",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1494,13 +1534,14 @@
         "fabric": "soft stretchy blend",
         "occasion": "casual",
         "season": "spring/summer",
-        "special_design": "tie dye pattern"
+        "special_design": "tie dye pattern",
+        "price": 2299
     },
     {
         "id": "id_00001180",
         "category": "Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Shirts/id_00001180",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shirts/id_00001180",
         "images": [
             "01_1_front.jpg",
             "01_3_back.jpg",
@@ -1514,13 +1555,14 @@
         "fabric": "soft stretch cotton blend",
         "occasion": "casual",
         "season": "fall/winter",
-        "special_design": "flouncy hem, flannel bodice"
+        "special_design": "flouncy hem, flannel bodice",
+        "price": 799
     },
     {
         "id": "id_00001706",
         "category": "Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Shirts/id_00001706",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shirts/id_00001706",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1536,13 +1578,14 @@
         "fabric": "lace, embroidered cotton",
         "occasion": "semi-formal",
         "season": "spring/summer",
-        "special_design": "embroidered, tie at the neck, cutaway shoulder"
+        "special_design": "embroidered, tie at the neck, cutaway shoulder",
+        "price": 799
     },
     {
         "id": "id_00000623",
         "category": "Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Shirts/id_00000623",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shirts/id_00000623",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -1556,13 +1599,14 @@
         "fabric": "soft stretchy blend, silk",
         "occasion": "casual",
         "season": "spring/summer",
-        "special_design": "polka dot print, high-low hem"
+        "special_design": "polka dot print, high-low hem",
+        "price": 399
     },
     {
         "id": "id_00000506",
         "category": "Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Shirts/id_00000506",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shirts/id_00000506",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1583,13 +1627,14 @@
         "fabric": "stretchy blend of italian fabric, lightweight linen blend, lightweight blend of linen and cotton",
         "occasion": "casual",
         "season": "spring/summer",
-        "special_design": "gingham check pattern, shirttail hem"
+        "special_design": "gingham check pattern, shirttail hem",
+        "price": 1299
     },
     {
         "id": "id_00000740",
         "category": "Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Shirts/id_00000740",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shirts/id_00000740",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -1608,13 +1653,14 @@
         "fabric": "cotton",
         "occasion": "casual",
         "season": "spring/summer",
-        "special_design": "surplice, yoke, open front, front slit"
+        "special_design": "surplice, yoke, open front, front slit",
+        "price": 1899
     },
     {
         "id": "id_00002098",
         "category": "Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Shirts/id_00002098",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shirts/id_00002098",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -1629,13 +1675,14 @@
         "fabric": "woolly blend blend (cotton and unknown)",
         "occasion": "casual",
         "season": "fall/winter",
-        "special_design": "plaid pattern with tassel"
+        "special_design": "plaid pattern with tassel",
+        "price": 399
     },
     {
         "id": "id_00000507",
         "category": "Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Shirts/id_00000507",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shirts/id_00000507",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1650,13 +1697,14 @@
         "fabric": "soft blend of cotton and linen with a touch of lace",
         "occasion": "casual",
         "season": "summer/spring",
-        "special_design": "distressed"
+        "special_design": "distressed",
+        "price": 999
     },
     {
         "id": "id_00000024",
         "category": "Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Shirts/id_00000024",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shirts/id_00000024",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -1671,13 +1719,14 @@
         "fabric": "lightweight cotton blend",
         "occasion": "casual",
         "season": "spring/summer",
-        "special_design": "plaid pattern, drapey bodice, drapey open front, drapey front slit"
+        "special_design": "plaid pattern, drapey bodice, drapey open front, drapey front slit",
+        "price": 599
     },
     {
         "id": "id_00002608",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00002608",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00002608",
         "images": [
             "05_1_front.jpg",
             "05_2_side.jpg",
@@ -1708,13 +1757,14 @@
         "fabric": "soft alpaca blend, cotton blend, merino wool",
         "occasion": "casual",
         "season": "fall/winter",
-        "special_design": "chunky knit, ribbed texture, cable knit, zip front, ruffled hem"
+        "special_design": "chunky knit, ribbed texture, cable knit, zip front, ruffled hem",
+        "price": 799
     },
     {
         "id": "id_00001385",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00001385",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00001385",
         "images": [
             "04_1_front.jpg",
             "04_3_back.jpg",
@@ -1732,13 +1782,14 @@
         "fabric": "lightweight knit",
         "occasion": "casual",
         "season": "spring/summer",
-        "special_design": "drapey surplice bodice, slit at the side, flowy skirt, slouchy fit, open front and back"
+        "special_design": "drapey surplice bodice, slit at the side, flowy skirt, slouchy fit, open front and back",
+        "price": 2299
     },
     {
         "id": "id_00001696",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00001696",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00001696",
         "images": [
             "05_1_front.jpg",
             "05_3_back.jpg",
@@ -1765,13 +1816,14 @@
         "fabric": "soft alpaca blend, alpaca and cashmere, alpaca and merino wool",
         "occasion": "casual, winter wear",
         "season": "winter",
-        "special_design": "chunky ribbed knit, slouchy fit, wide brim, cardigan style"
+        "special_design": "chunky ribbed knit, slouchy fit, wide brim, cardigan style",
+        "price": 599
     },
     {
         "id": "id_00002357",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00002357",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00002357",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1786,13 +1838,14 @@
         "fabric": "soft alpaca blend, soft and stretchy blend",
         "occasion": "casual",
         "season": "winter",
-        "special_design": "bold zigzag pattern, color blocked"
+        "special_design": "bold zigzag pattern, color blocked",
+        "price": 1499
     },
     {
         "id": "id_00000832",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00000832",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00000832",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -1813,13 +1866,14 @@
         "fabric": "stretch knit, velvety ribbed sweater, soft merino wool blend",
         "occasion": "work, casual",
         "season": "fall/winter",
-        "special_design": "ribbed texture, slouchy fit, button detail"
+        "special_design": "ribbed texture, slouchy fit, button detail",
+        "price": 2299
     },
     {
         "id": "id_00000062",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00000062",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00000062",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1836,13 +1890,14 @@
         "fabric": "velvet blend",
         "occasion": "any occasion",
         "season": "fall/winter",
-        "special_design": "slouchy"
+        "special_design": "slouchy",
+        "price": 999
     },
     {
         "id": "id_00000777",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00000777",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00000777",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1858,13 +1913,14 @@
         "fabric": "soft cotton, stretchy fabric",
         "occasion": "casual, activewear",
         "season": "fall/spring",
-        "special_design": "logo graphic, logo waistband, cropped hood"
+        "special_design": "logo graphic, logo waistband, cropped hood",
+        "price": 999
     },
     {
         "id": "id_00001106",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00001106",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00001106",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -1879,13 +1935,14 @@
         "fabric": "knit",
         "occasion": "casual",
         "season": "fall/spring",
-        "special_design": "tassel fringe, color blocked pattern"
+        "special_design": "tassel fringe, color blocked pattern",
+        "price": 2299
     },
     {
         "id": "id_00000160",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00000160",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00000160",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -1900,13 +1957,14 @@
         "fabric": "lightweight knit",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "bold animal print, geometric pattern, slouchy fit"
+        "special_design": "bold animal print, geometric pattern, slouchy fit",
+        "price": 999
     },
     {
         "id": "id_00000098",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00000098",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00000098",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -1922,13 +1980,14 @@
         "fabric": "alpaca and silk blend yarn",
         "occasion": "casual",
         "season": "spring/fall",
-        "special_design": "fringe hem"
+        "special_design": "fringe hem",
+        "price": 2299
     },
     {
         "id": "id_00000964",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00000964",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00000964",
         "images": [
             "05_1_front.jpg",
             "05_2_side.jpg",
@@ -1966,13 +2025,14 @@
         "fabric": "soft blend (alpaca, cotton, merino, linen, cotton blend)",
         "occasion": "casual",
         "season": "fall/winter",
-        "special_design": "drapey front, slouchy fit, sequined bodice, high low hem"
+        "special_design": "drapey front, slouchy fit, sequined bodice, high low hem",
+        "price": 1299
     },
     {
         "id": "id_00000303",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00000303",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00000303",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -1986,13 +2046,14 @@
         "fabric": "cotton blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "crocheted pattern, tassel trim, tassel fringe"
+        "special_design": "crocheted pattern, tassel trim, tassel fringe",
+        "price": 399
     },
     {
         "id": "id_00000014",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00000014",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00000014",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -2007,13 +2068,14 @@
         "fabric": "soft alpaca blend",
         "occasion": "casual",
         "season": "fall/winter",
-        "special_design": "tiny animal print, anchor print, drapey yoke"
+        "special_design": "tiny animal print, anchor print, drapey yoke",
+        "price": 799
     },
     {
         "id": "id_00000688",
         "category": "Sweaters",
         "gender": "Women",
-        "img_path": "/img/Women/Sweaters/id_00000688",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweaters/id_00000688",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -2028,13 +2090,14 @@
         "fabric": "relaxed fit, cozy and versatile",
         "occasion": "casual, layering",
         "season": "fall/winter",
-        "special_design": "drapey front slit, drapey hem"
+        "special_design": "drapey front slit, drapey hem",
+        "price": 399
     },
     {
         "id": "id_00002498",
         "category": "Jumpsuits",
         "gender": "Women",
-        "img_path": "/img/Women/Jumpsuits/id_00002498",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jumpsuits/id_00002498",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -2053,13 +2116,14 @@
         "fabric": "unknown",
         "occasion": "everyday",
         "season": "unknown",
-        "special_design": "floral print, polka dot print"
+        "special_design": "floral print, polka dot print",
+        "price": 999
     },
     {
         "id": "id_00001390",
         "category": "Jumpsuits",
         "gender": "Women",
-        "img_path": "/img/Women/Jumpsuits/id_00001390",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jumpsuits/id_00001390",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -2075,13 +2139,14 @@
         "fabric": "unknown",
         "occasion": "work to play",
         "season": "unknown",
-        "special_design": "drapey collar, belt, tie at the waist"
+        "special_design": "drapey collar, belt, tie at the waist",
+        "price": 1299
     },
     {
         "id": "id_00007945",
         "category": "Jumpsuits",
         "gender": "Women",
-        "img_path": "/img/Women/Jumpsuits/id_00007945",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jumpsuits/id_00007945",
         "images": [
             "01_1_front.jpg",
             "01_3_back.jpg",
@@ -2099,13 +2164,14 @@
         "fabric": "lightweight blend of linen and silk",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "tie at the waist"
+        "special_design": "tie at the waist",
+        "price": 1299
     },
     {
         "id": "id_00003965",
         "category": "Jumpsuits",
         "gender": "Women",
-        "img_path": "/img/Women/Jumpsuits/id_00003965",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jumpsuits/id_00003965",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -2129,13 +2195,14 @@
         "fabric": "soft stretch knit",
         "occasion": "any",
         "season": "unknown",
-        "special_design": "tie at the waist, asymmetrical cut, built-in bra, scoop back, racerback"
+        "special_design": "tie at the waist, asymmetrical cut, built-in bra, scoop back, racerback",
+        "price": 399
     },
     {
         "id": "id_00006649",
         "category": "Jumpsuits",
         "gender": "Women",
-        "img_path": "/img/Women/Jumpsuits/id_00006649",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jumpsuits/id_00006649",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -2150,13 +2217,14 @@
         "fabric": "linen and linen blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "drawstring waist, pocket"
+        "special_design": "drawstring waist, pocket",
+        "price": 999
     },
     {
         "id": "id_00000584",
         "category": "Jumpsuits",
         "gender": "Women",
-        "img_path": "/img/Women/Jumpsuits/id_00000584",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jumpsuits/id_00000584",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -2176,13 +2244,14 @@
         "fabric": "lightweight blend",
         "occasion": "special event, work, play, night",
         "season": "summer/spring",
-        "special_design": "wide leg, tie at the waist"
+        "special_design": "wide leg, tie at the waist",
+        "price": 2299
     },
     {
         "id": "id_00001126",
         "category": "Jumpsuits",
         "gender": "Women",
-        "img_path": "/img/Women/Jumpsuits/id_00001126",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jumpsuits/id_00001126",
         "images": [
             "05_1_front.jpg",
             "05_3_back.jpg",
@@ -2202,13 +2271,14 @@
         "fabric": "ribbed knit",
         "occasion": "night out, party",
         "season": "summer",
-        "special_design": "tie belt, wide leg"
+        "special_design": "tie belt, wide leg",
+        "price": 599
     },
     {
         "id": "id_00001245",
         "category": "Jumpsuits",
         "gender": "Women",
-        "img_path": "/img/Women/Jumpsuits/id_00001245",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jumpsuits/id_00001245",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -2224,13 +2294,14 @@
         "fabric": "denim",
         "occasion": "unknown",
         "season": "summer",
-        "special_design": "cutaway shoulder, cutaway hem, raw hem, whiskered"
+        "special_design": "cutaway shoulder, cutaway hem, raw hem, whiskered",
+        "price": 999
     },
     {
         "id": "id_00000419",
         "category": "Jumpsuits",
         "gender": "Women",
-        "img_path": "/img/Women/Jumpsuits/id_00000419",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jumpsuits/id_00000419",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -2250,13 +2321,14 @@
         "fabric": "denim, cotton, cotton blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "distressed, drawstring waist"
+        "special_design": "distressed, drawstring waist",
+        "price": 799
     },
     {
         "id": "id_00000344",
         "category": "Jumpsuits",
         "gender": "Women",
-        "img_path": "/img/Women/Jumpsuits/id_00000344",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jumpsuits/id_00000344",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -2282,13 +2354,14 @@
         "fabric": "cotton, crepe, stretchy knit",
         "occasion": "casual, summer outing",
         "season": "summer",
-        "special_design": "belted waist, lacy trim, smocked bodice, ruffled hem, cutaway waist, pockets"
+        "special_design": "belted waist, lacy trim, smocked bodice, ruffled hem, cutaway waist, pockets",
+        "price": 1499
     },
     {
         "id": "id_00000820",
         "category": "Jumpsuits",
         "gender": "Women",
-        "img_path": "/img/Women/Jumpsuits/id_00000820",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jumpsuits/id_00000820",
         "images": [
             "04_1_front.jpg",
             "04_3_back.jpg",
@@ -2309,13 +2382,14 @@
         "fabric": "stretchy jersey blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "surplice bodice, high slit"
+        "special_design": "surplice bodice, high slit",
+        "price": 399
     },
     {
         "id": "id_00000828",
         "category": "Jumpsuits",
         "gender": "Women",
-        "img_path": "/img/Women/Jumpsuits/id_00000828",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jumpsuits/id_00000828",
         "images": [
             "02_1_front.jpg",
             "02_3_back.jpg",
@@ -2335,13 +2409,14 @@
         "fabric": "stretchy jersey blend",
         "occasion": "night out",
         "season": "unknown",
-        "special_design": "glamorous, sleek and easy,versatile"
+        "special_design": "glamorous, sleek and easy,versatile",
+        "price": 799
     },
     {
         "id": "id_00003782",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00003782",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00003782",
         "images": [
             "01_1_front.jpg",
             "01_3_back.jpg",
@@ -2385,13 +2460,14 @@
         "fabric": "stretch knit, ribbed knit, wool blend",
         "occasion": "work, casual, evening",
         "season": "fall, winter",
-        "special_design": "side slit, high waist, asymmetrical front, slimming cut"
+        "special_design": "side slit, high waist, asymmetrical front, slimming cut",
+        "price": 399
     },
     {
         "id": "id_00002961",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00002961",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00002961",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -2407,13 +2483,14 @@
         "fabric": "cotton blend, lace",
         "occasion": "casual, date",
         "season": "spring, summer",
-        "special_design": "lacy bodice, ruffled tier, pleated skirt, button-down, tiered hem"
+        "special_design": "lacy bodice, ruffled tier, pleated skirt, button-down, tiered hem",
+        "price": 999
     },
     {
         "id": "id_00003386",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00003386",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00003386",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -2428,13 +2505,14 @@
         "fabric": "mesh, sheer",
         "occasion": "evening, party",
         "season": "spring, summer",
-        "special_design": "sheer mesh bodice, mesh panel, high-low hem, side slit"
+        "special_design": "sheer mesh bodice, mesh panel, high-low hem, side slit",
+        "price": 1499
     },
     {
         "id": "id_00004182",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00004182",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00004182",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -2454,13 +2532,14 @@
         "fabric": "cotton blend",
         "occasion": "sunny day stroll, casual",
         "season": "spring, summer",
-        "special_design": "high low hem, ruffled hem, asymmetrical hem"
+        "special_design": "high low hem, ruffled hem, asymmetrical hem",
+        "price": 1499
     },
     {
         "id": "id_00001558",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00001558",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00001558",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -2543,13 +2622,14 @@
         "fabric": "stretch knit, ribbed knit, mesh, wool blend, cashmere blend",
         "occasion": "casual, work, everyday",
         "season": "all, winter, transitional",
-        "special_design": "color blocking, ribbed texture, animal print, logo waistband"
+        "special_design": "color blocking, ribbed texture, animal print, logo waistband",
+        "price": 799
     },
     {
         "id": "id_00000976",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00000976",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00000976",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -2568,13 +2648,14 @@
         "fabric": "stretch knit, crochet",
         "occasion": "casual, daywear",
         "season": "all-season",
-        "special_design": "geometric grid pattern, bold print, flared silhouette"
+        "special_design": "geometric grid pattern, bold print, flared silhouette",
+        "price": 1299
     },
     {
         "id": "id_00002986",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00002986",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00002986",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -2593,13 +2674,14 @@
         "fabric": "lightweight linen blend",
         "occasion": "casual, vacation, evening",
         "season": "spring, summer",
-        "special_design": "tie waist, pleats, wide slit"
+        "special_design": "tie waist, pleats, wide slit",
+        "price": 399
     },
     {
         "id": "id_00004237",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00004237",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00004237",
         "images": [
             "05_1_front.jpg",
             "05_2_side.jpg",
@@ -2614,13 +2696,14 @@
         "fabric": "leather",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "pleated skirt"
+        "special_design": "pleated skirt",
+        "price": 1299
     },
     {
         "id": "id_00001376",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00001376",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00001376",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -2636,13 +2719,14 @@
         "fabric": "cotton blend, stretch denim",
         "occasion": "work",
         "season": "unknown",
-        "special_design": "smocked bodice, zip detailing, button down front"
+        "special_design": "smocked bodice, zip detailing, button down front",
+        "price": 399
     },
     {
         "id": "id_00001503",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00001503",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00001503",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -2667,13 +2751,14 @@
         "fabric": "soft stretchy knit, crisp cotton blend, lightweight linen blend, tweedy tweed blend knit, ribbed knit, rich hued cr",
         "occasion": "work to play, work, casual chic",
         "season": "unknown",
-        "special_design": "pleated hem, notched, zip at the hem, flirty finish"
+        "special_design": "pleated hem, notched, zip at the hem, flirty finish",
+        "price": 1499
     },
     {
         "id": "id_00000902",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00000902",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00000902",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -2689,13 +2774,14 @@
         "fabric": "stretchy knit",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "flattering V neckline, flattering front, slit at the hem, zip front"
+        "special_design": "flattering V neckline, flattering front, slit at the hem, zip front",
+        "price": 1299
     },
     {
         "id": "id_00000684",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00000684",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00000684",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -2710,13 +2796,14 @@
         "fabric": "silk blend, lightweight blend",
         "occasion": "casual, evening, vacation",
         "season": "spring, summer",
-        "special_design": "high-low hem, wide slit"
+        "special_design": "high-low hem, wide slit",
+        "price": 799
     },
     {
         "id": "id_00000743",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00000743",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00000743",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -2744,13 +2831,14 @@
         "fabric": "soft cotton blend, stretchy blend, lacy overlay",
         "occasion": "casual, summer outing, daywear",
         "season": "spring, summer",
-        "special_design": "scalloped hem, lacy yoke, ruffled hem, button fly"
+        "special_design": "scalloped hem, lacy yoke, ruffled hem, button fly",
+        "price": 399
     },
     {
         "id": "id_00000003",
         "category": "Skirts",
         "gender": "Women",
-        "img_path": "/img/Women/Skirts/id_00000003",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Skirts/id_00000003",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -2766,13 +2854,14 @@
         "fabric": "crisp cotton blend",
         "occasion": "work to play",
         "season": "unknown",
-        "special_design": "pleated bodice and skirt"
+        "special_design": "pleated bodice and skirt",
+        "price": 1299
     },
     {
         "id": "id_00007481",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00007481",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00007481",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -2787,13 +2876,14 @@
         "fabric": "satiny",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "front slit"
+        "special_design": "front slit",
+        "price": 599
     },
     {
         "id": "id_00007556",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00007556",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00007556",
         "images": [
             "06_1_front.jpg",
             "06_2_side.jpg",
@@ -2828,13 +2918,14 @@
         "fabric": "stretch denim, velveteen",
         "occasion": "work, casual",
         "season": "spring, summer",
-        "special_design": "polka dot print"
+        "special_design": "polka dot print",
+        "price": 2299
     },
     {
         "id": "id_00007139",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00007139",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00007139",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -2857,13 +2948,14 @@
         "fabric": "soft stretchy jersey, lightweight linen, italian stretch knit",
         "occasion": "casual, everyday",
         "season": "unknown",
-        "special_design": "tie waist, drawstring waist, high waist, wide leg, slouchy cutout, belted waist"
+        "special_design": "tie waist, drawstring waist, high waist, wide leg, slouchy cutout, belted waist",
+        "price": 999
     },
     {
         "id": "id_00004070",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00004070",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00004070",
         "images": [
             "05_1_front.jpg",
             "05_2_side.jpg",
@@ -2890,13 +2982,14 @@
         "fabric": "stretch knit",
         "occasion": "casual, everyday",
         "season": "spring, summer",
-        "special_design": "high slit hem"
+        "special_design": "high slit hem",
+        "price": 599
     },
     {
         "id": "id_00005974",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00005974",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00005974",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -2911,13 +3004,14 @@
         "fabric": "italian blend, fine woven",
         "occasion": "casual, workwear",
         "season": "spring, autumn",
-        "special_design": "wide pleats, cropped silhouette"
+        "special_design": "wide pleats, cropped silhouette",
+        "price": 1299
     },
     {
         "id": "id_00006534",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00006534",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00006534",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -2932,13 +3026,14 @@
         "fabric": "soft stretch knit",
         "occasion": "casual, semi-formal",
         "season": "spring, summer",
-        "special_design": "belted waist"
+        "special_design": "belted waist",
+        "price": 599
     },
     {
         "id": "id_00006341",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00006341",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00006341",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -2953,13 +3048,14 @@
         "fabric": "silk blend",
         "occasion": "casual, vacation, evening",
         "season": "spring, summer",
-        "special_design": "tie-waist"
+        "special_design": "tie-waist",
+        "price": 1899
     },
     {
         "id": "id_00005000",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00005000",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00005000",
         "images": [
             "05_1_front.jpg",
             "05_2_side.jpg",
@@ -2990,13 +3086,14 @@
         "fabric": "stretch velvet, mesh, jersey, denim",
         "occasion": "casual, party, evening",
         "season": "spring, fall, winter",
-        "special_design": "sheer bodice, cutout detail, slit hem"
+        "special_design": "sheer bodice, cutout detail, slit hem",
+        "price": 1299
     },
     {
         "id": "id_00005796",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00005796",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00005796",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -3027,13 +3124,14 @@
         "fabric": "soft stretchy knit",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "slimming belt and slimming waist"
+        "special_design": "slimming belt and slimming waist",
+        "price": 599
     },
     {
         "id": "id_00006250",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00006250",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00006250",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -3052,13 +3150,14 @@
         "fabric": "stretch jersey, silk blend",
         "occasion": "evening, casual, statement wear",
         "season": "summer, spring",
-        "special_design": "leopard print, contrast panel, waist tie"
+        "special_design": "leopard print, contrast panel, waist tie",
+        "price": 1299
     },
     {
         "id": "id_00007168",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00007168",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00007168",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -3081,13 +3180,14 @@
         "fabric": "linen and linen blend fleece, wool and silk twill, crepe blend",
         "occasion": "work to play",
         "season": "unknown",
-        "special_design": "wide belted waist, slouchy high waist, wide leg, slim leg, pleat, draped skirt, drawstring waist, pleated cuff"
+        "special_design": "wide belted waist, slouchy high waist, wide leg, slim leg, pleat, draped skirt, drawstring waist, pleated cuff",
+        "price": 1499
     },
     {
         "id": "id_00005452",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00005452",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00005452",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -3106,13 +3206,14 @@
         "fabric": "stretch blend, linen blend",
         "occasion": "work, smart casual",
         "season": "spring/summer",
-        "special_design": "pinstripe pattern"
+        "special_design": "pinstripe pattern",
+        "price": 2299
     },
     {
         "id": "id_00001426",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00001426",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00001426",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -3131,13 +3232,14 @@
         "fabric": "linen blend, twill, satin",
         "occasion": "casual",
         "season": "unknown",
-        "special_design": "chain link, drawstring waist"
+        "special_design": "chain link, drawstring waist",
+        "price": 2299
     },
     {
         "id": "id_00000315",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00000315",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00000315",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -3156,13 +3258,14 @@
         "fabric": "cotton blend, stretch",
         "occasion": "casual, summer outing",
         "season": "summer",
-        "special_design": "all-over print"
+        "special_design": "all-over print",
+        "price": 1299
     },
     {
         "id": "id_00000394",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00000394",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00000394",
         "images": [
             "02_1_front.jpg",
             "02_3_back.jpg",
@@ -3177,13 +3280,14 @@
         "fabric": "stretchy blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "floral print"
+        "special_design": "floral print",
+        "price": 599
     },
     {
         "id": "id_00003919",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00003919",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00003919",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -3226,13 +3330,14 @@
         "fabric": "linen, cotton, silk, stretch blend, corduroy, satin",
         "occasion": "casual, lounge, weekend getaway",
         "season": "summer, spring",
-        "special_design": "cropped bodice, tie waist, satiny finish"
+        "special_design": "cropped bodice, tie waist, satiny finish",
+        "price": 399
     },
     {
         "id": "id_00003829",
         "category": "Leggings",
         "gender": "Women",
-        "img_path": "/img/Women/Leggings/id_00003829",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Leggings/id_00003829",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -3252,13 +3357,14 @@
         "fabric": "lightweight blend of wool and silk",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "button"
+        "special_design": "button",
+        "price": 399
     },
     {
         "id": "id_00005123",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00005123",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00005123",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -3274,13 +3380,14 @@
         "fabric": "cotton blend, knit",
         "occasion": "casual, loungewear",
         "season": "spring, fall",
-        "special_design": "lace panel, cutaway shoulder, drawstring detailing"
+        "special_design": "lace panel, cutaway shoulder, drawstring detailing",
+        "price": 2299
     },
     {
         "id": "id_00005755",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00005755",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00005755",
         "images": [
             "02_1_front.jpg",
             "02_3_back.jpg",
@@ -3295,13 +3402,14 @@
         "fabric": "soft jersey or cotton blend (inferred)",
         "occasion": "casual, lounge",
         "season": "spring, early fall",
-        "special_design": "cowl hem detailing"
+        "special_design": "cowl hem detailing",
+        "price": 599
     },
     {
         "id": "id_00004074",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00004074",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00004074",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -3316,13 +3424,14 @@
         "fabric": "cotton blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "sheer mesh bodice, high waist"
+        "special_design": "sheer mesh bodice, high waist",
+        "price": 399
     },
     {
         "id": "id_00003660",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00003660",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00003660",
         "images": [
             "04_1_front.jpg",
             "04_3_back.jpg",
@@ -3359,13 +3468,14 @@
         "fabric": "cotton blend, fleece, jersey knit",
         "occasion": "casual, loungewear, travel",
         "season": "fall, winter, spring",
-        "special_design": "drawstring waist, zip front, removable hood"
+        "special_design": "drawstring waist, zip front, removable hood",
+        "price": 599
     },
     {
         "id": "id_00003318",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00003318",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00003318",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -3389,13 +3499,14 @@
         "fabric": "soft and stretchy cotton blend",
         "occasion": "lounging",
         "season": "unknown",
-        "special_design": "hood with drawstring pouch"
+        "special_design": "hood with drawstring pouch",
+        "price": 1499
     },
     {
         "id": "id_00005200",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00005200",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00005200",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -3410,13 +3521,14 @@
         "fabric": "unknown",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "tie dye pattern"
+        "special_design": "tie dye pattern",
+        "price": 2299
     },
     {
         "id": "id_00004830",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00004830",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00004830",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -3431,13 +3543,14 @@
         "fabric": "alpaca-cotton blend",
         "occasion": "casual, lounge, fall layering",
         "season": "fall, winter",
-        "special_design": "bold graphic pattern, chunky texture"
+        "special_design": "bold graphic pattern, chunky texture",
+        "price": 799
     },
     {
         "id": "id_00004591",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00004591",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00004591",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -3452,13 +3565,14 @@
         "fabric": "soft blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "bold floral print"
+        "special_design": "bold floral print",
+        "price": 399
     },
     {
         "id": "id_00000126",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00000126",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00000126",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -3477,13 +3591,14 @@
         "fabric": "alpaca and cotton",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "monogram motif"
+        "special_design": "monogram motif",
+        "price": 999
     },
     {
         "id": "id_00000247",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00000247",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00000247",
         "images": [
             "02_1_front.jpg",
             "02_3_back.jpg",
@@ -3497,13 +3612,14 @@
         "fabric": "unknown",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "drapey surplice bodice, drapey tie at the neckline, cowl shaped cowl"
+        "special_design": "drapey surplice bodice, drapey tie at the neckline, cowl shaped cowl",
+        "price": 1899
     },
     {
         "id": "id_00001249",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00001249",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00001249",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -3548,13 +3664,14 @@
         "fabric": "cotton blend, fleece, knit",
         "occasion": "casual, lounge, travel",
         "season": "fall, winter, transitional",
-        "special_design": "drawstring waist, removable hood, slouchy fit"
+        "special_design": "drawstring waist, removable hood, slouchy fit",
+        "price": 799
     },
     {
         "id": "id_00000775",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00000775",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00000775",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -3581,13 +3698,14 @@
         "fabric": "Alpaca blend, Merino wool, Cotton knit",
         "occasion": "Casual, Loungewear, Cold weather",
         "season": "Fall/Winter",
-        "special_design": "Drawstring hood, Zip front, Plaid pattern, Geometric print, Ruffled hem"
+        "special_design": "Drawstring hood, Zip front, Plaid pattern, Geometric print, Ruffled hem",
+        "price": 799
     },
     {
         "id": "id_00000342",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00000342",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00000342",
         "images": [
             "04_1_front.jpg",
             "04_4_full.jpg",
@@ -3605,13 +3723,14 @@
         "fabric": "soft stretchy cotton blend",
         "occasion": "unknown",
         "season": "chilly",
-        "special_design": "chunky hem, dropped shoulder, slouchy fit"
+        "special_design": "chunky hem, dropped shoulder, slouchy fit",
+        "price": 1499
     },
     {
         "id": "id_00000679",
         "category": "Sweatshirts_Hoodies",
         "gender": "Women",
-        "img_path": "/img/Women/Sweatshirts_Hoodies/id_00000679",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Sweatshirts_Hoodies/id_00000679",
         "images": [
             "07_1_front.jpg",
             "07_2_side.jpg",
@@ -3629,13 +3748,14 @@
         "fabric": "Lightweight fabric, Lace panel",
         "occasion": "Casual, Daywear, Summer outing",
         "season": "Spring/Summer",
-        "special_design": "Lacy yoke, Cutout back, Scalloped hem, Drapey silhouette"
+        "special_design": "Lacy yoke, Cutout back, Scalloped hem, Drapey silhouette",
+        "price": 1899
     },
     {
         "id": "id_00000593",
         "category": "Jackets_Coats",
         "gender": "Women",
-        "img_path": "/img/Women/Jackets_Coats/id_00000593",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jackets_Coats/id_00000593",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -3651,13 +3771,14 @@
         "fabric": "unknown",
         "occasion": "adventure",
         "season": "unknown",
-        "special_design": "removable hood"
+        "special_design": "removable hood",
+        "price": 1899
     },
     {
         "id": "id_00000764",
         "category": "Jackets_Coats",
         "gender": "Women",
-        "img_path": "/img/Women/Jackets_Coats/id_00000764",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jackets_Coats/id_00000764",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -3672,13 +3793,14 @@
         "fabric": "denim",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "raw hem and raw edge"
+        "special_design": "raw hem and raw edge",
+        "price": 1299
     },
     {
         "id": "id_00000590",
         "category": "Jackets_Coats",
         "gender": "Women",
-        "img_path": "/img/Women/Jackets_Coats/id_00000590",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jackets_Coats/id_00000590",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -3693,13 +3815,14 @@
         "fabric": "faux leather",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "raw hem"
+        "special_design": "raw hem",
+        "price": 2299
     },
     {
         "id": "id_00000157",
         "category": "Jackets_Coats",
         "gender": "Women",
-        "img_path": "/img/Women/Jackets_Coats/id_00000157",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jackets_Coats/id_00000157",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -3720,13 +3843,14 @@
         "fabric": "Lightweight knit",
         "occasion": "Casual, Transitional weather, Everyday wear",
         "season": "Spring/Fall",
-        "special_design": "Tie waist, Drapey silhouette, Slouchy fit, Double-breasted"
+        "special_design": "Tie waist, Drapey silhouette, Slouchy fit, Double-breasted",
+        "price": 1299
     },
     {
         "id": "id_00000013",
         "category": "Jackets_Coats",
         "gender": "Women",
-        "img_path": "/img/Women/Jackets_Coats/id_00000013",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jackets_Coats/id_00000013",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -3746,13 +3870,14 @@
         "fabric": "woolly blend",
         "occasion": "unknown",
         "season": "chilly",
-        "special_design": "plush faux fur collar, removable hood, removable waist feature, double breasted"
+        "special_design": "plush faux fur collar, removable hood, removable waist feature, double breasted",
+        "price": 999
     },
     {
         "id": "id_00000069",
         "category": "Jackets_Coats",
         "gender": "Women",
-        "img_path": "/img/Women/Jackets_Coats/id_00000069",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jackets_Coats/id_00000069",
         "images": [
             "03_1_front.jpg",
             "03_3_back.jpg",
@@ -3770,13 +3895,14 @@
         "fabric": "Cashmere blend (partial), Knit blend (assumed), Structured fabric",
         "occasion": "Work, Business casual, Evening",
         "season": "Fall/Spring",
-        "special_design": "Double-breasted, Slim fit, Drapey silhouette"
+        "special_design": "Double-breasted, Slim fit, Drapey silhouette",
+        "price": 799
     },
     {
         "id": "id_00000187",
         "category": "Jackets_Coats",
         "gender": "Women",
-        "img_path": "/img/Women/Jackets_Coats/id_00000187",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jackets_Coats/id_00000187",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -3813,13 +3939,14 @@
         "fabric": "Cotton blend, Wool blend, Knit",
         "occasion": "Casual, Workwear",
         "season": "Spring, Fall",
-        "special_design": "Drawstring waist, Double-breasted, Removable hood, Cropped silhouette, Slouchy fit"
+        "special_design": "Drawstring waist, Double-breasted, Removable hood, Cropped silhouette, Slouchy fit",
+        "price": 1299
     },
     {
         "id": "id_00000163",
         "category": "Jackets_Coats",
         "gender": "Women",
-        "img_path": "/img/Women/Jackets_Coats/id_00000163",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jackets_Coats/id_00000163",
         "images": [
             "01_1_front.jpg",
             "01_3_back.jpg",
@@ -3834,13 +3961,14 @@
         "fabric": "cotton blend, linen blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "tie at the waist"
+        "special_design": "tie at the waist",
+        "price": 1499
     },
     {
         "id": "id_00000054",
         "category": "Jackets_Coats",
         "gender": "Women",
-        "img_path": "/img/Women/Jackets_Coats/id_00000054",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jackets_Coats/id_00000054",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -3855,13 +3983,14 @@
         "fabric": "Wool blend, Lightweight fabric",
         "occasion": "Casual, Travel",
         "season": "Fall, Spring",
-        "special_design": "Slouchy fit, Wide lapel"
+        "special_design": "Slouchy fit, Wide lapel",
+        "price": 999
     },
     {
         "id": "id_00000116",
         "category": "Jackets_Coats",
         "gender": "Women",
-        "img_path": "/img/Women/Jackets_Coats/id_00000116",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Jackets_Coats/id_00000116",
         "images": [
             "01_1_front.jpg",
             "01_3_back.jpg",
@@ -3876,13 +4005,14 @@
         "fabric": "Alpaca blend, Merino wool, Cashmere",
         "occasion": "Lounge, Casual",
         "season": "Fall, Winter",
-        "special_design": "Heathered texture, Slouchy fit"
+        "special_design": "Heathered texture, Slouchy fit",
+        "price": 1499
     },
     {
         "id": "id_00001032",
         "category": "Pants",
         "gender": "Women",
-        "img_path": "/img/Women/Pants/id_00001032",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Pants/id_00001032",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -3909,13 +4039,14 @@
         "fabric": "soft stretch jersey",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "contrast collar and contrasting trim"
+        "special_design": "contrast collar and contrasting trim",
+        "price": 799
     },
     {
         "id": "id_00002262",
         "category": "Pants",
         "gender": "Women",
-        "img_path": "/img/Women/Pants/id_00002262",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Pants/id_00002262",
         "images": [
             "05_1_front.jpg",
             "05_2_side.jpg",
@@ -3938,13 +4069,14 @@
         "fabric": "linen,silk,jersey,wool,cash,italian stretch twill",
         "occasion": "everyday,work,play,casual weekend,work to play",
         "season": "unknown",
-        "special_design": "pleated waist, tie at the waist,slouchy high waist"
+        "special_design": "pleated waist, tie at the waist,slouchy high waist",
+        "price": 999
     },
     {
         "id": "id_00001880",
         "category": "Pants",
         "gender": "Women",
-        "img_path": "/img/Women/Pants/id_00001880",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Pants/id_00001880",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -3964,13 +4096,14 @@
         "fabric": "lightweight blend of linen and cotton",
         "occasion": "laid back weekend getaway",
         "season": "unknown",
-        "special_design": "drawstring waist"
+        "special_design": "drawstring waist",
+        "price": 399
     },
     {
         "id": "id_00001398",
         "category": "Pants",
         "gender": "Women",
-        "img_path": "/img/Women/Pants/id_00001398",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Pants/id_00001398",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -3997,13 +4130,14 @@
         "fabric": "stretch denim",
         "occasion": "street style",
         "season": "unknown",
-        "special_design": "raw hem, frayed hem, faded wash, whiskered finish, tie at the neck"
+        "special_design": "raw hem, frayed hem, faded wash, whiskered finish, tie at the neck",
+        "price": 599
     },
     {
         "id": "id_00002691",
         "category": "Pants",
         "gender": "Women",
-        "img_path": "/img/Women/Pants/id_00002691",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Pants/id_00002691",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4046,13 +4180,14 @@
         "fabric": "Linen blend, Cotton, Fleece",
         "occasion": "Casual, Lounge",
         "season": "Spring, Summer",
-        "special_design": "Drawstring waist, Pleated cuff, Tie waist, Wide leg"
+        "special_design": "Drawstring waist, Pleated cuff, Tie waist, Wide leg",
+        "price": 399
     },
     {
         "id": "id_00003202",
         "category": "Pants",
         "gender": "Women",
-        "img_path": "/img/Women/Pants/id_00003202",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Pants/id_00003202",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -4078,13 +4213,14 @@
         "fabric": "soft stretch denim, soft stretchy jersey",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "graphic print, cutout, drawstring waist"
+        "special_design": "graphic print, cutout, drawstring waist",
+        "price": 999
     },
     {
         "id": "id_00000286",
         "category": "Pants",
         "gender": "Women",
-        "img_path": "/img/Women/Pants/id_00000286",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Pants/id_00000286",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4119,13 +4255,14 @@
         "fabric": "Stretch denim, Linen blend, Mesh",
         "occasion": "Casual, Work-to-play",
         "season": "Spring, Summer",
-        "special_design": "Frayed hem, Eyelet embroidery, Mesh panel, Tie waist"
+        "special_design": "Frayed hem, Eyelet embroidery, Mesh panel, Tie waist",
+        "price": 399
     },
     {
         "id": "id_00007976",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00007976",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00007976",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4141,13 +4278,14 @@
         "fabric": "soft stretchy knit",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "striped bandeau"
+        "special_design": "striped bandeau",
+        "price": 2299
     },
     {
         "id": "id_00007914",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00007914",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00007914",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4185,13 +4323,14 @@
         "fabric": "Ribbed knit, Stretch knit, Cotton blend",
         "occasion": "Casual, Activewear",
         "season": "Spring, Summer",
-        "special_design": "Built-in bra, Slim fit"
+        "special_design": "Built-in bra, Slim fit",
+        "price": 999
     },
     {
         "id": "id_00007891",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00007891",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00007891",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4208,13 +4347,14 @@
         "fabric": "Ribbed knit, Stretch knit",
         "occasion": "Casual, Evening",
         "season": "Spring, Summer",
-        "special_design": "Built-in bra, Ruched bodice, Seamless back"
+        "special_design": "Built-in bra, Ruched bodice, Seamless back",
+        "price": 1499
     },
     {
         "id": "id_00007877",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00007877",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00007877",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4234,13 +4374,14 @@
         "fabric": "Drapey knit, Metallic shimmer, Soft blend",
         "occasion": "Casual, Evening, Summer outing",
         "season": "Summer, Spring",
-        "special_design": "Crisscross back, Metallic shimmer, Cutout back"
+        "special_design": "Crisscross back, Metallic shimmer, Cutout back",
+        "price": 1299
     },
     {
         "id": "id_00007880",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00007880",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00007880",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -4256,13 +4397,14 @@
         "fabric": "lightweight cotton blend",
         "occasion": "laid back weekend getaway",
         "season": "unknown",
-        "special_design": "polka dot pattern"
+        "special_design": "polka dot pattern",
+        "price": 399
     },
     {
         "id": "id_00007961",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00007961",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00007961",
         "images": [
             "04_1_front.jpg",
             "04_3_back.jpg",
@@ -4288,13 +4430,14 @@
         "fabric": "['soft stretch knit', 'lightweight linen blend', 'lightweight jersey blend', 'satin', 'lace']",
         "occasion": "['night out', 'any occasion', 'summer']",
         "season": "['summer']",
-        "special_design": "['lace trimmed bodice', 'lacy hem', 'eyelet', 'pop of burberry']"
+        "special_design": "['lace trimmed bodice', 'lacy hem', 'eyelet', 'pop of burberry']",
+        "price": 1299
     },
     {
         "id": "id_00007862",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00007862",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00007862",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -4313,13 +4456,14 @@
         "fabric": "Lightweight linen blend",
         "occasion": "Casual, Summer Outing",
         "season": "Summer, Spring",
-        "special_design": "Bold geometric print, Animal print (leopard), High waist, Drapey fit"
+        "special_design": "Bold geometric print, Animal print (leopard), High waist, Drapey fit",
+        "price": 1899
     },
     {
         "id": "id_00000060",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00000060",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00000060",
         "images": [
             "05_1_front.jpg",
             "05_2_side.jpg",
@@ -4338,13 +4482,14 @@
         "fabric": "lace",
         "occasion": "casual, everyday",
         "season": "unknown",
-        "special_design": "scalloped hem, wide brimmed band, lacy back yoke, lacy pattern"
+        "special_design": "scalloped hem, wide brimmed band, lacy back yoke, lacy pattern",
+        "price": 2299
     },
     {
         "id": "id_00000102",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00000102",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00000102",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -4364,13 +4509,14 @@
         "fabric": "Sheer mesh, Knit, Lightweight",
         "occasion": "Casual, Semi-formal, Summer outing",
         "season": "Summer, Spring",
-        "special_design": "Wide open back, Pleated trim, Color-pop detailing"
+        "special_design": "Wide open back, Pleated trim, Color-pop detailing",
+        "price": 399
     },
     {
         "id": "id_00000101",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00000101",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00000101",
         "images": [
             "01_1_front.jpg",
             "01_3_back.jpg",
@@ -4388,13 +4534,14 @@
         "fabric": "soft stretch knit",
         "occasion": "any occasion",
         "season": "unknown",
-        "special_design": "leopard print"
+        "special_design": "leopard print",
+        "price": 599
     },
     {
         "id": "id_00000026",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00000026",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00000026",
         "images": [
             "05_1_front.jpg",
             "05_2_side.jpg",
@@ -4421,13 +4568,14 @@
         "fabric": "soft blend of alpaca and cotton",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "wide brim of lace, lacy bodice"
+        "special_design": "wide brim of lace, lacy bodice",
+        "price": 1299
     },
     {
         "id": "id_00007779",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00007779",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00007779",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -4455,13 +4603,14 @@
         "fabric": "Cotton blend, Lace, Lightweight",
         "occasion": "Casual, Daywear",
         "season": "Spring, Summer",
-        "special_design": "Lacy yoke, Button placket, Tassel detailing"
+        "special_design": "Lacy yoke, Button placket, Tassel detailing",
+        "price": 999
     },
     {
         "id": "id_00007857",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00007857",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00007857",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -4480,13 +4629,14 @@
         "fabric": "unknown",
         "occasion": "weekend",
         "season": "next",
-        "special_design": "color blocked, ruffled"
+        "special_design": "color blocked, ruffled",
+        "price": 1899
     },
     {
         "id": "id_00007793",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00007793",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00007793",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -4501,13 +4651,14 @@
         "fabric": "mesh",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "scalloped hem, slit at the back, high low hem"
+        "special_design": "scalloped hem, slit at the back, high low hem",
+        "price": 1899
     },
     {
         "id": "id_00000032",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00000032",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00000032",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -4524,13 +4675,14 @@
         "fabric": "cotton blend",
         "occasion": "everyday",
         "season": "unknown",
-        "special_design": "ribbed knit, lacy"
+        "special_design": "ribbed knit, lacy",
+        "price": 799
     },
     {
         "id": "id_00000079",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00000079",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00000079",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -4559,13 +4711,14 @@
         "fabric": "Sheer mesh, Stretch knit, Mesh blend",
         "occasion": "Party, Casual Nightwear, Clubwear",
         "season": "Spring, Summer",
-        "special_design": "Thong back, Mesh insets, Color blocking, Scalloped hem"
+        "special_design": "Thong back, Mesh insets, Color blocking, Scalloped hem",
+        "price": 1299
     },
     {
         "id": "id_00000007",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00000007",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00000007",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4581,13 +4734,14 @@
         "fabric": "Soft stretch knit",
         "occasion": "Casual, Concert, Streetwear",
         "season": "Spring, Summer",
-        "special_design": "Iconic graphic print"
+        "special_design": "Iconic graphic print",
+        "price": 799
     },
     {
         "id": "id_00000012",
         "category": "Tees_Tanks",
         "gender": "Women",
-        "img_path": "/img/Women/Tees_Tanks/id_00000012",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Tees_Tanks/id_00000012",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -4602,13 +4756,14 @@
         "fabric": "metallic shimmery knit, ribbed",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "lacy bodice, lacy cut"
+        "special_design": "lacy bodice, lacy cut",
+        "price": 2299
     },
     {
         "id": "id_00000596",
         "category": "Shorts",
         "gender": "Women",
-        "img_path": "/img/Women/Shorts/id_00000596",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shorts/id_00000596",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -4631,13 +4786,14 @@
         "fabric": "cotton blend, stretchy cotton, lightweight cotton blend, soft stretch denim",
         "occasion": "everyday look",
         "season": "unknown",
-        "special_design": "scalloped hem, lacy, high waist, smocked bodice and waist"
+        "special_design": "scalloped hem, lacy, high waist, smocked bodice and waist",
+        "price": 799
     },
     {
         "id": "id_00001404",
         "category": "Shorts",
         "gender": "Women",
-        "img_path": "/img/Women/Shorts/id_00001404",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shorts/id_00001404",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4682,13 +4838,14 @@
         "fabric": "Soft stretch knit, cotton blend",
         "occasion": "Daily wear, Lounging, Workout",
         "season": "Spring, Summer",
-        "special_design": "Seamless waistband, Coordinated sets"
+        "special_design": "Seamless waistband, Coordinated sets",
+        "price": 399
     },
     {
         "id": "id_00001354",
         "category": "Shorts",
         "gender": "Women",
-        "img_path": "/img/Women/Shorts/id_00001354",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shorts/id_00001354",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4717,13 +4874,14 @@
         "fabric": "Stretch denim, cotton blend",
         "occasion": "Casual outings, Summer wear",
         "season": "Spring, Summer",
-        "special_design": "Frayed hem, Cutoff hem, Tassel detail, Scalloped edge"
+        "special_design": "Frayed hem, Cutoff hem, Tassel detail, Scalloped edge",
+        "price": 1899
     },
     {
         "id": "id_00006861",
         "category": "Shorts",
         "gender": "Women",
-        "img_path": "/img/Women/Shorts/id_00006861",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shorts/id_00006861",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -4739,13 +4897,14 @@
         "fabric": "stretchy",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "tie at the waist, frill trimmed bodice, drawstring waist, swingy hem"
+        "special_design": "tie at the waist, frill trimmed bodice, drawstring waist, swingy hem",
+        "price": 2299
     },
     {
         "id": "id_00000577",
         "category": "Shorts",
         "gender": "Women",
-        "img_path": "/img/Women/Shorts/id_00000577",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shorts/id_00000577",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4765,13 +4924,14 @@
         "fabric": "stretch denim",
         "occasion": "everyday",
         "season": "unknown",
-        "special_design": "frayed hem, scalloped hem, ruffled hem"
+        "special_design": "frayed hem, scalloped hem, ruffled hem",
+        "price": 1899
     },
     {
         "id": "id_00006763",
         "category": "Shorts",
         "gender": "Women",
-        "img_path": "/img/Women/Shorts/id_00006763",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shorts/id_00006763",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -4804,13 +4964,14 @@
         "fabric": "Cotton blend, Linen blend, Ribbed knit",
         "occasion": "Casual, Lounging, Summer activities",
         "season": "Spring, Summer",
-        "special_design": "Drawstring waist, Ruffled hem, Scalloped edge, Racerback top (seen in sets), Embroidery"
+        "special_design": "Drawstring waist, Ruffled hem, Scalloped edge, Racerback top (seen in sets), Embroidery",
+        "price": 999
     },
     {
         "id": "id_00000347",
         "category": "Shorts",
         "gender": "Women",
-        "img_path": "/img/Women/Shorts/id_00000347",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shorts/id_00000347",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -4825,13 +4986,14 @@
         "fabric": "Stretch fabric, possibly cotton blend",
         "occasion": "Summer outing, Casual wear, Vacation",
         "season": "Spring, Summer",
-        "special_design": "Embroidered, Ikat pattern, Lace-trimmed hem, Ruffled hem, Tie-waist"
+        "special_design": "Embroidered, Ikat pattern, Lace-trimmed hem, Ruffled hem, Tie-waist",
+        "price": 799
     },
     {
         "id": "id_00000103",
         "category": "Shorts",
         "gender": "Women",
-        "img_path": "/img/Women/Shorts/id_00000103",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Shorts/id_00000103",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4862,13 +5024,14 @@
         "fabric": "Cotton blend, Linen",
         "occasion": "Casual, Semi-formal, Summer office wear",
         "season": "",
-        "special_design": ""
+        "special_design": "",
+        "price": 1499
     },
     {
         "id": "id_00005300",
         "category": "Graphic_Tees",
         "gender": "Women",
-        "img_path": "/img/Women/Graphic_Tees/id_00005300",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Graphic_Tees/id_00005300",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -4883,13 +5046,14 @@
         "fabric": "soft cotton",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "graphic print with logo graphic at the front"
+        "special_design": "graphic print with logo graphic at the front",
+        "price": 1299
     },
     {
         "id": "id_00007251",
         "category": "Graphic_Tees",
         "gender": "Women",
-        "img_path": "/img/Women/Graphic_Tees/id_00007251",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Graphic_Tees/id_00007251",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4905,13 +5069,14 @@
         "fabric": "Soft jersey knit",
         "occasion": "Casual outings, relaxed daywear",
         "season": "Spring/Summer",
-        "special_design": "Graphic print, slit hem, drapey silhouette"
+        "special_design": "Graphic print, slit hem, drapey silhouette",
+        "price": 399
     },
     {
         "id": "id_00007919",
         "category": "Graphic_Tees",
         "gender": "Women",
-        "img_path": "/img/Women/Graphic_Tees/id_00007919",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Graphic_Tees/id_00007919",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4927,13 +5092,14 @@
         "fabric": "Cotton blend",
         "occasion": "Everyday, athleisure, casual outings",
         "season": "Spring/Summer",
-        "special_design": "Graphic print, ruffled hem"
+        "special_design": "Graphic print, ruffled hem",
+        "price": 1299
     },
     {
         "id": "id_00003368",
         "category": "Graphic_Tees",
         "gender": "Women",
-        "img_path": "/img/Women/Graphic_Tees/id_00003368",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Graphic_Tees/id_00003368",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4949,13 +5115,14 @@
         "fabric": "merino wool blend",
         "occasion": "casual",
         "season": "unknown",
-        "special_design": "side slit, cropped hem, sheer mesh bodice"
+        "special_design": "side slit, cropped hem, sheer mesh bodice",
+        "price": 2299
     },
     {
         "id": "id_00000195",
         "category": "Graphic_Tees",
         "gender": "Women",
-        "img_path": "/img/Women/Graphic_Tees/id_00000195",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Graphic_Tees/id_00000195",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4971,13 +5138,14 @@
         "fabric": "lightweight cotton blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "tie dye pattern, ruffled hem, graphic print"
+        "special_design": "tie dye pattern, ruffled hem, graphic print",
+        "price": 399
     },
     {
         "id": "id_00003108",
         "category": "Graphic_Tees",
         "gender": "Women",
-        "img_path": "/img/Women/Graphic_Tees/id_00003108",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Graphic_Tees/id_00003108",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -4992,13 +5160,14 @@
         "fabric": "Cotton blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "Graphic print"
+        "special_design": "Graphic print",
+        "price": 2299
     },
     {
         "id": "id_00004566",
         "category": "Graphic_Tees",
         "gender": "Women",
-        "img_path": "/img/Women/Graphic_Tees/id_00004566",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Graphic_Tees/id_00004566",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -5013,13 +5182,14 @@
         "fabric": "cotton blend",
         "occasion": "work",
         "season": "unknown",
-        "special_design": "graphic print"
+        "special_design": "graphic print",
+        "price": 1299
     },
     {
         "id": "id_00000449",
         "category": "Graphic_Tees",
         "gender": "Women",
-        "img_path": "/img/Women/Graphic_Tees/id_00000449",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Graphic_Tees/id_00000449",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -5035,13 +5205,14 @@
         "fabric": "Soft cotton jersey",
         "occasion": "Everyday wear, casual, lounge",
         "season": "Spring/Summer",
-        "special_design": "Motivational graphic prints"
+        "special_design": "Motivational graphic prints",
+        "price": 599
     },
     {
         "id": "id_00000659",
         "category": "Graphic_Tees",
         "gender": "Women",
-        "img_path": "/img/Women/Graphic_Tees/id_00000659",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Graphic_Tees/id_00000659",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -5057,13 +5228,14 @@
         "fabric": "Lightweight cotton blend",
         "occasion": "Casual, everyday, summer outings",
         "season": "Spring/Summer",
-        "special_design": "Color-blocked panels, bold logo graphic"
+        "special_design": "Color-blocked panels, bold logo graphic",
+        "price": 1899
     },
     {
         "id": "id_00004993",
         "category": "Graphic_Tees",
         "gender": "Women",
-        "img_path": "/img/Women/Graphic_Tees/id_00004993",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Graphic_Tees/id_00004993",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -5084,13 +5256,14 @@
         "fabric": "soft stretchy cotton",
         "occasion": "casual",
         "season": "unknown",
-        "special_design": "graphic print"
+        "special_design": "graphic print",
+        "price": 2299
     },
     {
         "id": "id_00004468",
         "category": "Graphic_Tees",
         "gender": "Women",
-        "img_path": "/img/Women/Graphic_Tees/id_00004468",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Graphic_Tees/id_00004468",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -5106,13 +5279,14 @@
         "fabric": "cotton",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "graphic print"
+        "special_design": "graphic print",
+        "price": 999
     },
     {
         "id": "id_00001825",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00001825",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00001825",
         "images": [
             "04_1_front.jpg",
             "04_3_back.jpg",
@@ -5136,13 +5310,14 @@
         "fabric": "cotton,knit,silk",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "surplice,high low hem, wide leg"
+        "special_design": "surplice,high low hem, wide leg",
+        "price": 599
     },
     {
         "id": "id_00000588",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000588",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000588",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -5161,13 +5336,14 @@
         "fabric": "silk blend",
         "occasion": "work to play",
         "season": "unknown",
-        "special_design": "crisscrossed pattern, geometric pattern, grid patterning, high waist, drapey open front, drapey high low hem"
+        "special_design": "crisscrossed pattern, geometric pattern, grid patterning, high waist, drapey open front, drapey high low hem",
+        "price": 799
     },
     {
         "id": "id_00001666",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00001666",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00001666",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -5182,13 +5358,14 @@
         "fabric": "linen blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "bold print, bold graphic pattern"
+        "special_design": "bold print, bold graphic pattern",
+        "price": 799
     },
     {
         "id": "id_00000879",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000879",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000879",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -5203,13 +5380,14 @@
         "fabric": "Soft stretch knit",
         "occasion": "Casual, lounge, semi-formal",
         "season": "All-season",
-        "special_design": "Cutaway shoulder, statement collar, chain accent"
+        "special_design": "Cutaway shoulder, statement collar, chain accent",
+        "price": 399
     },
     {
         "id": "id_00000737",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000737",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000737",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -5228,13 +5406,14 @@
         "fabric": "Cotton-linen blend, mesh, lace",
         "occasion": "Casual, resort wear, summer outing",
         "season": "Spring/Summer",
-        "special_design": "Sheer panels, lacy yoke, tassel tie, draped cutouts"
+        "special_design": "Sheer panels, lacy yoke, tassel tie, draped cutouts",
+        "price": 1499
     },
     {
         "id": "id_00000982",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000982",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000982",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -5254,13 +5433,14 @@
         "fabric": "lightweight cotton blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "polka dot print, tassel"
+        "special_design": "polka dot print, tassel",
+        "price": 1899
     },
     {
         "id": "id_00001194",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00001194",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00001194",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -5282,13 +5462,14 @@
         "fabric": "Satiny knit / cotton blend",
         "occasion": "Daytime outing, vacation, casual wear",
         "season": "Spring/Summer",
-        "special_design": "Flared hem, ribbon accents, cinched waist"
+        "special_design": "Flared hem, ribbon accents, cinched waist",
+        "price": 599
     },
     {
         "id": "id_00000453",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000453",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000453",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -5303,13 +5484,14 @@
         "fabric": "lightweight",
         "occasion": "casual, daytime outing, vacation",
         "season": "spring/summer",
-        "special_design": "cutout back, strappy design"
+        "special_design": "cutout back, strappy design",
+        "price": 999
     },
     {
         "id": "id_00000015",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000015",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000015",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -5325,13 +5507,14 @@
         "fabric": "lace, mesh",
         "occasion": "date, party, semi-formal",
         "season": "spring/summer",
-        "special_design": "scalloped hem, sheer yoke, lace detailing"
+        "special_design": "scalloped hem, sheer yoke, lace detailing",
+        "price": 1299
     },
     {
         "id": "id_00000351",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000351",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000351",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -5358,13 +5541,14 @@
         "fabric": "soft stretchy blend",
         "occasion": "everyday",
         "season": "unknown",
-        "special_design": "ruffled,scalloped,ruched,tie at the waist,tie at the neckline"
+        "special_design": "ruffled,scalloped,ruched,tie at the waist,tie at the neckline",
+        "price": 1499
     },
     {
         "id": "id_00000442",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000442",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000442",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -5383,13 +5567,14 @@
         "fabric": "cotton blend, denim, linen blend",
         "occasion": "casual, daytime",
         "season": "spring/summer",
-        "special_design": "tie detail, raw hem, faded wash"
+        "special_design": "tie detail, raw hem, faded wash",
+        "price": 999
     },
     {
         "id": "id_00000392",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000392",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000392",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -5405,13 +5590,14 @@
         "fabric": "soft stretchy blend",
         "occasion": "vacation, casual summer",
         "season": "summer",
-        "special_design": "tropical and floral print"
+        "special_design": "tropical and floral print",
+        "price": 1299
     },
     {
         "id": "id_00000067",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000067",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000067",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -5426,13 +5612,14 @@
         "fabric": "silk blend",
         "occasion": "casual, summer outings",
         "season": "summer",
-        "special_design": "delicate embroidery"
+        "special_design": "delicate embroidery",
+        "price": 1299
     },
     {
         "id": "id_00000057",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000057",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000057",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -5451,13 +5638,14 @@
         "fabric": "stretchy cotton blend, lightweight",
         "occasion": "casual, day-out, semi-formal",
         "season": "spring, summer",
-        "special_design": "bold animal print, ruffled hem, pop of color"
+        "special_design": "bold animal print, ruffled hem, pop of color",
+        "price": 2299
     },
     {
         "id": "id_00000155",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000155",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000155",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -5471,13 +5659,14 @@
         "fabric": "smooth stretch knit",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "racerback"
+        "special_design": "racerback",
+        "price": 799
     },
     {
         "id": "id_00000350",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000350",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000350",
         "images": [
             "01_1_front.jpg",
             "01_3_back.jpg",
@@ -5496,13 +5685,14 @@
         "fabric": "lightweight, drapey",
         "occasion": "casual, semi-formal",
         "season": "spring, summer",
-        "special_design": "tassel tie, bold animal print"
+        "special_design": "tassel tie, bold animal print",
+        "price": 799
     },
     {
         "id": "id_00000093",
         "category": "Blouses_Shirts",
         "gender": "Women",
-        "img_path": "/img/Women/Blouses_Shirts/id_00000093",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Blouses_Shirts/id_00000093",
         "images": [
             "01_1_front.jpg",
             "01_2_side.jpg",
@@ -5517,13 +5707,14 @@
         "fabric": "cotton blend",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "smocked bodice"
+        "special_design": "smocked bodice",
+        "price": 599
     },
     {
         "id": "id_00001335",
         "category": "Cardigans",
         "gender": "Women",
-        "img_path": "/img/Women/Cardigans/id_00001335",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Cardigans/id_00001335",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -5542,13 +5733,14 @@
         "fabric": "lightweight blend of alpaca and merino",
         "occasion": "casual",
         "season": "unknown",
-        "special_design": "slouchy fit, slouchy hem, slouchy silhouette"
+        "special_design": "slouchy fit, slouchy hem, slouchy silhouette",
+        "price": 999
     },
     {
         "id": "id_00001436",
         "category": "Cardigans",
         "gender": "Women",
-        "img_path": "/img/Women/Cardigans/id_00001436",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Cardigans/id_00001436",
         "images": [
             "02_1_front.jpg",
             "02_3_back.jpg",
@@ -5563,13 +5755,14 @@
         "fabric": "fine blend of wool and cashmere",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "bold geometric pattern, bold leopard print, bold snake print"
+        "special_design": "bold geometric pattern, bold leopard print, bold snake print",
+        "price": 799
     },
     {
         "id": "id_00007972",
         "category": "Dresses",
         "gender": "Women",
-        "img_path": "/img/Women/Dresses/id_00007972",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Dresses/id_00007972",
         "images": [
             "05_1_front.jpg",
             "05_2_side.jpg",
@@ -5584,13 +5777,14 @@
         "fabric": "stretch knit, lightweight crepe, jersey knit",
         "occasion": "casual, semi-formal",
         "season": "spring, summer",
-        "special_design": "back cutout"
+        "special_design": "back cutout",
+        "price": 1499
     },
     {
         "id": "id_00000643",
         "category": "Dresses",
         "gender": "Women",
-        "img_path": "/img/Women/Dresses/id_00000643",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Dresses/id_00000643",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -5605,13 +5799,14 @@
         "fabric": "unknown",
         "occasion": "any",
         "season": "unknown",
-        "special_design": "halter"
+        "special_design": "halter",
+        "price": 399
     },
     {
         "id": "id_00000035",
         "category": "Dresses",
         "gender": "Women",
-        "img_path": "/img/Women/Dresses/id_00000035",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Dresses/id_00000035",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -5633,13 +5828,14 @@
         "fabric": "stretchy jersey knit, soft stretch knit,stretchy knit,ribbed knit",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "thigh baring slit,ruched front,slou,front slit,slou,scooped back"
+        "special_design": "thigh baring slit,ruched front,slou,front slit,slou,scooped back",
+        "price": 1899
     },
     {
         "id": "id_00000301",
         "category": "Dresses",
         "gender": "Women",
-        "img_path": "/img/Women/Dresses/id_00000301",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Dresses/id_00000301",
         "images": [
             "03_1_front.jpg",
             "03_2_side.jpg",
@@ -5659,13 +5855,14 @@
         "fabric": "stretch knit, crepe knit",
         "occasion": "casual, evening, party",
         "season": "spring, summer",
-        "special_design": "tie at waist, pleated bodice"
+        "special_design": "tie at waist, pleated bodice",
+        "price": 2299
     },
     {
         "id": "id_00000073",
         "category": "Dresses",
         "gender": "Women",
-        "img_path": "/img/Women/Dresses/id_00000073",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Dresses/id_00000073",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -5680,13 +5877,14 @@
         "fabric": "unknown",
         "occasion": "unknown",
         "season": "summer",
-        "special_design": "ruffled tiered"
+        "special_design": "ruffled tiered",
+        "price": 999
     },
     {
         "id": "id_00000229",
         "category": "Dresses",
         "gender": "Women",
-        "img_path": "/img/Women/Dresses/id_00000229",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Dresses/id_00000229",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -5701,13 +5899,14 @@
         "fabric": "unknown",
         "occasion": "unknown",
         "season": "summer",
-        "special_design": "floral print"
+        "special_design": "floral print",
+        "price": 1299
     },
     {
         "id": "id_00000422",
         "category": "Dresses",
         "gender": "Women",
-        "img_path": "/img/Women/Dresses/id_00000422",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Dresses/id_00000422",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -5722,13 +5921,14 @@
         "fabric": "chambray, linen blend, cotton blend",
         "occasion": "casual, daytime, vacation",
         "season": "summer, spring",
-        "special_design": "drawstring waist, ruffled tiered skirt, tassel tie"
+        "special_design": "drawstring waist, ruffled tiered skirt, tassel tie",
+        "price": 599
     },
     {
         "id": "id_00000277",
         "category": "Dresses",
         "gender": "Women",
-        "img_path": "/img/Women/Dresses/id_00000277",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Dresses/id_00000277",
         "images": [
             "09_1_front.jpg",
             "09_2_side.jpg",
@@ -5748,13 +5948,14 @@
         "fabric": "jersey, chiffon",
         "occasion": "beach, vacation, evening",
         "season": "summer, spring",
-        "special_design": "ruffled bodice, side slit, tie waist, striped pattern"
+        "special_design": "ruffled bodice, side slit, tie waist, striped pattern",
+        "price": 399
     },
     {
         "id": "id_00000088",
         "category": "Dresses",
         "gender": "Women",
-        "img_path": "/img/Women/Dresses/id_00000088",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Dresses/id_00000088",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -5770,13 +5971,14 @@
         "fabric": "satiny",
         "occasion": "party, evening wear, date night",
         "season": "summer, spring",
-        "special_design": "cutout neckline, flared hem"
+        "special_design": "cutout neckline, flared hem",
+        "price": 1899
     },
     {
         "id": "id_00000250",
         "category": "Dresses",
         "gender": "Women",
-        "img_path": "/img/Women/Dresses/id_00000250",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Dresses/id_00000250",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -5799,13 +6001,14 @@
         "fabric": "sheer mesh (in some variants), stretch fabric",
         "occasion": "",
         "season": "fall, winter",
-        "special_design": "leopard/animal print, slit, wide leg "
+        "special_design": "leopard/animal print, slit, wide leg ",
+        "price": 1499
     },
     {
         "id": "id_00000348",
         "category": "Dresses",
         "gender": "Women",
-        "img_path": "/img/Women/Dresses/id_00000348",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Dresses/id_00000348",
         "images": [
             "04_1_front.jpg",
             "04_2_side.jpg",
@@ -5827,13 +6030,14 @@
         "fabric": "stretchy knit",
         "occasion": "unknown",
         "season": "unknown",
-        "special_design": "mesh inset"
+        "special_design": "mesh inset",
+        "price": 599
     },
     {
         "id": "id_00000034",
         "category": "Dresses",
         "gender": "Women",
-        "img_path": "/img/Women/Dresses/id_00000034",
+        "img_path": "https://github.com/Deepshikha2004/StyleGenie/tree/main/img/Women/Dresses/id_00000034",
         "images": [
             "02_1_front.jpg",
             "02_2_side.jpg",
@@ -5848,6 +6052,7 @@
         "fabric": "lightweight fabric (implied)",
         "occasion": "summer event, vacation, daytime outing",
         "season": "spring, summer",
-        "special_design": "floral print"
+        "special_design": "floral print",
+        "price": 599
     }
 ]

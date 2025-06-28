@@ -36,17 +36,21 @@ class ProductDetailActivity : AppCompatActivity() {
         btnBuyNow = findViewById(R.id.btnBuyNow)
         btnBack = findViewById(R.id.btnBack)
 
-        // Get data from intent (update keys if needed)
-        val name = intent.getStringExtra("name") ?: "Sample Product"
-        val price = intent.getStringExtra("price") ?: "Rs. 0.00"
+        val name = intent.getStringExtra("category") ?: "Sample Product"         // ✅ FIXED
+        val price = intent.getStringExtra("price") ?: "₹0"
         val description = intent.getStringExtra("description") ?: "No description available."
-        val imageResId = intent.getIntExtra("imageResId", R.drawable.fashion_image2)
+        val imageUrl = intent.getStringExtra("img_path") ?: ""                   // ✅ FIXED
 
-        // Set values to views
+        // Set views
         textProductName.text = name
         textProductPrice.text = price
         textProductDescription.text = description
-        Glide.with(this).load(imageResId).into(imageProduct)
+
+        if (imageUrl.isNotEmpty()) {
+            Glide.with(this).load(imageUrl).into(imageProduct)
+        } else {
+            imageProduct.setImageResource(R.drawable.fashion_image2)
+        }
 
         // Back button functionality
         btnBack.setOnClickListener {
@@ -54,7 +58,7 @@ class ProductDetailActivity : AppCompatActivity() {
             overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
         }
 
-        // Quantity handling
+        // Quantity logic
         btnIncreaseQty.setOnClickListener {
             if (quantity < 10) {
                 quantity++
@@ -71,12 +75,12 @@ class ProductDetailActivity : AppCompatActivity() {
 
         btnAddToCart.setOnClickListener {
             Toast.makeText(this, "$name added to bag (x$quantity)", Toast.LENGTH_SHORT).show()
-            // TODO: Save to cart database or list
+            // TODO: Add cart logic here
         }
 
         btnBuyNow.setOnClickListener {
             Toast.makeText(this, "Proceeding to buy $name (x$quantity)", Toast.LENGTH_SHORT).show()
-            // TODO: Navigate to checkout or payment screen
+            // TODO: Navigate to checkout
         }
     }
 }

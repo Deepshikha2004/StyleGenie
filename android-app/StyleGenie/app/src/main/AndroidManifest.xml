@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
         android:allowBackup="true"
@@ -29,6 +31,10 @@
         <activity android:name=".SignupActivity" />
         <activity android:name=".OnboardingActivity" />
         <activity android:name=".ChatBotActivity" />
+        <activity android:name=".FavoritesActivity" />
+        <activity android:name=".ProfileActivity" />
+
+
 
 
     </application>
