@@ -5,11 +5,22 @@ import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.provider.MediaStore
 import android.speech.RecognizerIntent
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.bumptech.glide.Glide
+import com.example.stylegenie.network.RetrofitInstance
+import com.example.stylegenie.network.BotResponse
+import okhttp3.MediaType.Companion.toMediaTypeOrNull
+import okhttp3.MultipartBody
+import okhttp3.RequestBody.Companion.asRequestBody
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import java.io.File
 import java.util.*
 
 class ChatBotActivity : AppCompatActivity() {
@@ -22,8 +33,6 @@ class ChatBotActivity : AppCompatActivity() {
     private lateinit var chatScrollView: ScrollView
     private lateinit var btnUploadImage: ImageButton
     private lateinit var btnRecord: ImageButton
-
-
 
     private var selectedImageUri: Uri? = null
 
@@ -44,44 +53,23 @@ class ChatBotActivity : AppCompatActivity() {
         btnUploadImage = findViewById(R.id.btnUploadImage)
         btnRecord = findViewById(R.id.btnRecord)
 
-        // 📤 Send button click
         sendButton.setOnClickListener {
             val message = inputEditText.text.toString().trim()
             val imageTag = inputEditText.tag
 
             if (imageTag is Uri) {
-                // Add selected image to chat
-                val imageView = ImageView(this).apply {
-                    layoutParams = LinearLayout.LayoutParams(400, 400).apply {
-                        setMargins(8, 8, 8, 8)
-                        gravity = android.view.Gravity.END
-                    }
-                    setImageURI(imageTag)
-                }
-                chatContainer.addView(imageView)
-
-                if (message.isNotEmpty()) {
-                    addMessage(message, isUser = true)
-                }
-
-                // Clear after send
+                val imageFile = File(getRealPathFromUri(imageTag))
+                uploadImage(imageFile)
                 inputEditText.text.clear()
-                inputEditText.tag = null
                 imagePreview.setImageDrawable(null)
                 imagePreview.visibility = View.GONE
-
-                scrollToBottom()
-                simulateBotTyping("Bot: Nice image! I'm still learning to give better replies.")
             } else if (message.isNotEmpty()) {
                 addMessage(message, isUser = true)
                 inputEditText.text.clear()
-                simulateBotTyping("Bot: Got your message!")
+                sendTextToBot(message)
             }
         }
 
-
-
-        // Restart chat
         btnRestart.setOnClickListener {
             chatContainer.removeAllViews()
             selectedImageUri = null
@@ -89,14 +77,12 @@ class ChatBotActivity : AppCompatActivity() {
             Toast.makeText(this, "Chat restarted", Toast.LENGTH_SHORT).show()
         }
 
-        // Upload image
         btnUploadImage.setOnClickListener {
             val intent = Intent(Intent.ACTION_PICK)
             intent.type = "image/*"
             startActivityForResult(intent, IMAGE_PICK_CODE)
         }
 
-        // Record voice
         btnRecord.setOnClickListener {
             val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
                 putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
@@ -110,6 +96,7 @@ class ChatBotActivity : AppCompatActivity() {
                 Toast.makeText(this, "Speech recognition not supported", Toast.LENGTH_SHORT).show()
             }
         }
+
         imagePreview.setOnClickListener {
             inputEditText.tag = null
             imagePreview.setImageDrawable(null)
@@ -117,7 +104,6 @@ class ChatBotActivity : AppCompatActivity() {
             Toast.makeText(this, "Image removed", Toast.LENGTH_SHORT).show()
         }
     }
-
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
@@ -128,7 +114,9 @@ class ChatBotActivity : AppCompatActivity() {
                     val uri = data?.data
                     if (uri != null) {
                         selectedImageUri = uri
-                        //inputEditText.setText("Image selected. Click send to send it.")
+                        inputEditText.tag = uri
+                        imagePreview.setImageURI(uri)
+                        imagePreview.visibility = View.VISIBLE
                     }
                 }
 
@@ -137,19 +125,56 @@ class ChatBotActivity : AppCompatActivity() {
                     val spokenText = result?.get(0) ?: ""
                     inputEditText.setText(spokenText)
                 }
-
             }
-            if (requestCode == IMAGE_PICK_CODE) {
-                val imageUri: Uri? = data?.data
-                imageUri?.let {
-                    //inputEditText.setText("[Image Selected]")
-                    inputEditText.tag = it
-                    imagePreview.setImageURI(it)
-                    imagePreview.visibility = View.VISIBLE
+        }
+    }
+
+    private fun sendTextToBot(query: String) {
+        val body = mapOf("query" to query)
+        RetrofitInstance.api.getFashionByText(body).enqueue(object : Callback<BotResponse> {
+            override fun onResponse(call: Call<BotResponse>, response: Response<BotResponse>) {
+                if (response.isSuccessful) {
+                    val result = response.body()
+                    result?.let {
+                        addMessage(it.bot_response, isUser = false)
+                        it.images.forEach { image ->
+                            addBotImage(image.image_url)
+                        }
+                    }
+                } else {
+                    addMessage("Error: ${response.code()}", isUser = false)
                 }
             }
 
-        }
+            override fun onFailure(call: Call<BotResponse>, t: Throwable) {
+                addMessage("Failure: ${t.message}", isUser = false)
+            }
+        })
+    }
+
+    private fun uploadImage(file: File) {
+        val requestFile = file.asRequestBody("image/*".toMediaTypeOrNull())
+        val multipart = MultipartBody.Part.createFormData("file", file.name, requestFile)
+
+        RetrofitInstance.api.getFashionByImage(multipart).enqueue(object : Callback<BotResponse> {
+            override fun onResponse(call: Call<BotResponse>, response: Response<BotResponse>) {
+                if (response.isSuccessful) {
+                    val result = response.body()
+                    result?.let {
+                        addMessage(it.bot_response, isUser = false)
+                        it.images.forEach { image ->
+                            addBotImage(image.image_url)
+                        }
+                    }
+                } else {
+                    addMessage("Upload error: ${response.code()}", isUser = false)
+                }
+            }
+
+            override fun onFailure(call: Call<BotResponse>, t: Throwable) {
+                addMessage("Upload failed: ${t.message}", isUser = false)
+            }
+        })
     }
 
     private fun addMessage(message: String, isUser: Boolean) {
@@ -180,18 +205,19 @@ class ChatBotActivity : AppCompatActivity() {
         scrollToBottom()
     }
 
-    private fun addImageMessage(imageUri: Uri) {
+    private fun addBotImage(imageUrl: String) {
         val imageView = ImageView(this).apply {
-            setImageURI(imageUri)
             layoutParams = LinearLayout.LayoutParams(500, 500).apply {
                 topMargin = 8
                 bottomMargin = 8
-                marginStart = 80
-                marginEnd = 16
-                gravity = android.view.Gravity.END
+                marginStart = 16
+                marginEnd = 80
+                gravity = android.view.Gravity.START
             }
             scaleType = ImageView.ScaleType.CENTER_CROP
         }
+
+        Glide.with(this).load(imageUrl).into(imageView)
         chatContainer.addView(imageView)
         scrollToBottom()
     }
@@ -201,33 +227,14 @@ class ChatBotActivity : AppCompatActivity() {
             chatScrollView.fullScroll(ScrollView.FOCUS_DOWN)
         }
     }
-    private fun simulateBotTyping(response: String) {
-        val typingTextView = TextView(this).apply {
-            text = "Bot is typing..."
-            textSize = 16f
-            setPadding(16, 12, 16, 12)
-            setTextColor(ContextCompat.getColor(this@ChatBotActivity, android.R.color.darker_gray))
-        }
 
-        val layoutParams = LinearLayout.LayoutParams(
-            LinearLayout.LayoutParams.WRAP_CONTENT,
-            LinearLayout.LayoutParams.WRAP_CONTENT
-        ).apply {
-            topMargin = 8
-            bottomMargin = 8
-            marginStart = 16
-            marginEnd = 80
-            gravity = android.view.Gravity.START
-        }
-
-        typingTextView.layoutParams = layoutParams
-        chatContainer.addView(typingTextView)
-        scrollToBottom()
-
-        typingTextView.postDelayed({
-            chatContainer.removeView(typingTextView)
-            addMessage(response, isUser = false)
-        }, 2000) // 1 second typing simulation
+    private fun getRealPathFromUri(uri: Uri): String {
+        val projection = arrayOf(MediaStore.Images.Media.DATA)
+        val cursor = contentResolver.query(uri, projection, null, null, null)
+        cursor?.moveToFirst()
+        val columnIndex = cursor?.getColumnIndexOrThrow(MediaStore.Images.Media.DATA)
+        val filePath = cursor?.getString(columnIndex!!)
+        cursor?.close()
+        return filePath ?: ""
     }
-
 }
