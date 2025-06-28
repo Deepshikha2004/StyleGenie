@@ -19,7 +19,8 @@
         "occasion": "holiday season",
         "season": "warm weather",
         "special_design": "embroidery, print, graphic",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000911",
@@ -42,7 +43,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "logo graphic",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00007966",
@@ -65,7 +67,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "Graphic Print",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00005834",
@@ -103,7 +106,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "pattern, print, stripe",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00007301",
@@ -169,7 +173,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "pattern",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00007748",
@@ -192,7 +197,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "pattern, print, stripe",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00007770",
@@ -219,7 +225,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "built-in bra",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00004117",
@@ -303,7 +310,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "logo, pattern, pocket, print",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000337",
@@ -355,7 +363,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "pattern",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00002110",
@@ -435,7 +444,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "logo, pattern, pocket, print",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00001015",
@@ -459,7 +469,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "logo, pattern, print",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00001636",
@@ -483,7 +494,8 @@
         "occasion": "everyday",
         "season": "cooler months",
         "special_design": "ripped knee, drawstring waist",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000847",
@@ -519,7 +531,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "pocket",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00004423",
@@ -544,7 +557,8 @@
         "occasion": "layering or lounging",
         "season": "spring/fall",
         "special_design": "removable hood, drawstring waist, stand collar",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00007804",
@@ -597,7 +611,8 @@
         "occasion": "casual",
         "season": "summer",
         "special_design": "pocket",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00005575",
@@ -620,7 +635,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "logo print, monogram motif",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00005209",
@@ -644,7 +660,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "logo, pattern, print",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00002315",
@@ -694,7 +711,8 @@
         "occasion": "casual",
         "season": "summer",
         "special_design": "pattern, pocket",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00000881",
@@ -726,7 +744,8 @@
         "occasion": "casual, layering, warm weather",
         "season": "summer",
         "special_design": "hood with drawstring waist, hood with pouch, slouchy fit, crisp stripe pattern, ruched front, drapey side slit, drapey cowl, zip closure",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00001831",
@@ -767,7 +786,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "hood with zip , zip pocket,zip ",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00000932",
@@ -789,7 +809,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "kimono inspired silhouette, bold geometric print, bold polka dot pattern",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00003009",
@@ -836,7 +857,8 @@
         "occasion": "casual",
         "season": "summer",
         "special_design": "pattern, print, stripe",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00000193",
@@ -880,7 +902,8 @@
         "occasion": "casual",
         "season": "summer",
         "special_design": "pattern, print",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00000562",
@@ -903,7 +926,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "floral print",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00001866",
@@ -940,7 +964,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "pattern, print, stripe",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00001138",
@@ -962,7 +987,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "bold animal print, color blocked pattern",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00003489",
@@ -1010,7 +1036,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "pattern, print, stripe",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000846",
@@ -1057,7 +1084,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "logo, pattern, print, stripe",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000089",
@@ -1148,7 +1176,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "pattern, pocket, print, stripe",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000826",
@@ -1186,7 +1215,8 @@
         "occasion": "work, casual day to night",
         "season": "spring/fall",
         "special_design": "slouchy, tapered, ripped knee, raw hem, faded, whiskered, vintage edge",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00000844",
@@ -1209,7 +1239,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "pocket, print",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00001098",
@@ -1232,7 +1263,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "tonal chevron pattern, geometric design",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000114",
@@ -1275,7 +1307,8 @@
         "occasion": "casual",
         "season": "unknown",
         "special_design": "stripes",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00003336",
@@ -1325,7 +1358,8 @@
         "occasion": "casual",
         "season": "summer",
         "special_design": "pocket",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000653",
@@ -1357,7 +1391,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "none",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00001903",
@@ -1382,7 +1417,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "pocket",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00000084",
@@ -1417,7 +1453,8 @@
         "occasion": "casual, cold weather adventure, warm weather, modern",
         "season": "summer",
         "special_design": "zip closure, drawstring waist, removable hood, color blocked, bold logo",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00005943",
@@ -1450,7 +1487,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "removable hood, adjustable waist, water repellent finish",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00002173",
@@ -1474,7 +1512,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "none",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00006912",
@@ -1506,7 +1545,8 @@
         "occasion": "casual, everyday, weekend getaway",
         "season": "spring/fall",
         "special_design": "notched lapel, double breasted",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00000387",
@@ -1535,7 +1575,8 @@
         "occasion": "casual",
         "season": "spring/summer",
         "special_design": "tie dye pattern",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00001180",
@@ -1556,7 +1597,8 @@
         "occasion": "casual",
         "season": "fall/winter",
         "special_design": "flouncy hem, flannel bodice",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00001706",
@@ -1579,7 +1621,8 @@
         "occasion": "semi-formal",
         "season": "spring/summer",
         "special_design": "embroidered, tie at the neck, cutaway shoulder",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000623",
@@ -1600,7 +1643,8 @@
         "occasion": "casual",
         "season": "spring/summer",
         "special_design": "polka dot print, high-low hem",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00000506",
@@ -1628,7 +1672,8 @@
         "occasion": "casual",
         "season": "spring/summer",
         "special_design": "gingham check pattern, shirttail hem",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000740",
@@ -1654,7 +1699,8 @@
         "occasion": "casual",
         "season": "spring/summer",
         "special_design": "surplice, yoke, open front, front slit",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00002098",
@@ -1676,7 +1722,8 @@
         "occasion": "casual",
         "season": "fall/winter",
         "special_design": "plaid pattern with tassel",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00000507",
@@ -1698,7 +1745,8 @@
         "occasion": "casual",
         "season": "summer/spring",
         "special_design": "distressed",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000024",
@@ -1720,7 +1768,8 @@
         "occasion": "casual",
         "season": "spring/summer",
         "special_design": "plaid pattern, drapey bodice, drapey open front, drapey front slit",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00002608",
@@ -1758,7 +1807,8 @@
         "occasion": "casual",
         "season": "fall/winter",
         "special_design": "chunky knit, ribbed texture, cable knit, zip front, ruffled hem",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00001385",
@@ -1783,7 +1833,8 @@
         "occasion": "casual",
         "season": "spring/summer",
         "special_design": "drapey surplice bodice, slit at the side, flowy skirt, slouchy fit, open front and back",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00001696",
@@ -1817,7 +1868,8 @@
         "occasion": "casual, winter wear",
         "season": "winter",
         "special_design": "chunky ribbed knit, slouchy fit, wide brim, cardigan style",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00002357",
@@ -1839,7 +1891,8 @@
         "occasion": "casual",
         "season": "winter",
         "special_design": "bold zigzag pattern, color blocked",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00000832",
@@ -1867,7 +1920,8 @@
         "occasion": "work, casual",
         "season": "fall/winter",
         "special_design": "ribbed texture, slouchy fit, button detail",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000062",
@@ -1891,7 +1945,8 @@
         "occasion": "any occasion",
         "season": "fall/winter",
         "special_design": "slouchy",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000777",
@@ -1914,7 +1969,8 @@
         "occasion": "casual, activewear",
         "season": "fall/spring",
         "special_design": "logo graphic, logo waistband, cropped hood",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00001106",
@@ -1936,7 +1992,8 @@
         "occasion": "casual",
         "season": "fall/spring",
         "special_design": "tassel fringe, color blocked pattern",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000160",
@@ -1958,7 +2015,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "bold animal print, geometric pattern, slouchy fit",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000098",
@@ -1981,7 +2039,8 @@
         "occasion": "casual",
         "season": "spring/fall",
         "special_design": "fringe hem",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000964",
@@ -2026,7 +2085,8 @@
         "occasion": "casual",
         "season": "fall/winter",
         "special_design": "drapey front, slouchy fit, sequined bodice, high low hem",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000303",
@@ -2047,7 +2107,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "crocheted pattern, tassel trim, tassel fringe",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00000014",
@@ -2069,7 +2130,8 @@
         "occasion": "casual",
         "season": "fall/winter",
         "special_design": "tiny animal print, anchor print, drapey yoke",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000688",
@@ -2091,7 +2153,8 @@
         "occasion": "casual, layering",
         "season": "fall/winter",
         "special_design": "drapey front slit, drapey hem",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00002498",
@@ -2117,7 +2180,8 @@
         "occasion": "everyday",
         "season": "unknown",
         "special_design": "floral print, polka dot print",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00001390",
@@ -2140,7 +2204,8 @@
         "occasion": "work to play",
         "season": "unknown",
         "special_design": "drapey collar, belt, tie at the waist",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00007945",
@@ -2165,7 +2230,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "tie at the waist",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00003965",
@@ -2196,7 +2262,8 @@
         "occasion": "any",
         "season": "unknown",
         "special_design": "tie at the waist, asymmetrical cut, built-in bra, scoop back, racerback",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00006649",
@@ -2218,7 +2285,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "drawstring waist, pocket",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000584",
@@ -2245,7 +2313,8 @@
         "occasion": "special event, work, play, night",
         "season": "summer/spring",
         "special_design": "wide leg, tie at the waist",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00001126",
@@ -2272,7 +2341,8 @@
         "occasion": "night out, party",
         "season": "summer",
         "special_design": "tie belt, wide leg",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00001245",
@@ -2295,7 +2365,8 @@
         "occasion": "unknown",
         "season": "summer",
         "special_design": "cutaway shoulder, cutaway hem, raw hem, whiskered",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000419",
@@ -2322,7 +2393,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "distressed, drawstring waist",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000344",
@@ -2355,7 +2427,8 @@
         "occasion": "casual, summer outing",
         "season": "summer",
         "special_design": "belted waist, lacy trim, smocked bodice, ruffled hem, cutaway waist, pockets",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00000820",
@@ -2383,7 +2456,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "surplice bodice, high slit",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00000828",
@@ -2410,7 +2484,8 @@
         "occasion": "night out",
         "season": "unknown",
         "special_design": "glamorous, sleek and easy,versatile",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00003782",
@@ -2461,7 +2536,8 @@
         "occasion": "work, casual, evening",
         "season": "fall, winter",
         "special_design": "side slit, high waist, asymmetrical front, slimming cut",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00002961",
@@ -2484,7 +2560,8 @@
         "occasion": "casual, date",
         "season": "spring, summer",
         "special_design": "lacy bodice, ruffled tier, pleated skirt, button-down, tiered hem",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00003386",
@@ -2506,7 +2583,8 @@
         "occasion": "evening, party",
         "season": "spring, summer",
         "special_design": "sheer mesh bodice, mesh panel, high-low hem, side slit",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00004182",
@@ -2533,7 +2611,8 @@
         "occasion": "sunny day stroll, casual",
         "season": "spring, summer",
         "special_design": "high low hem, ruffled hem, asymmetrical hem",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00001558",
@@ -2623,7 +2702,8 @@
         "occasion": "casual, work, everyday",
         "season": "all, winter, transitional",
         "special_design": "color blocking, ribbed texture, animal print, logo waistband",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000976",
@@ -2649,7 +2729,8 @@
         "occasion": "casual, daywear",
         "season": "all-season",
         "special_design": "geometric grid pattern, bold print, flared silhouette",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00002986",
@@ -2675,7 +2756,8 @@
         "occasion": "casual, vacation, evening",
         "season": "spring, summer",
         "special_design": "tie waist, pleats, wide slit",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00004237",
@@ -2697,7 +2779,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "pleated skirt",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00001376",
@@ -2720,7 +2803,8 @@
         "occasion": "work",
         "season": "unknown",
         "special_design": "smocked bodice, zip detailing, button down front",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00001503",
@@ -2752,7 +2836,8 @@
         "occasion": "work to play, work, casual chic",
         "season": "unknown",
         "special_design": "pleated hem, notched, zip at the hem, flirty finish",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00000902",
@@ -2775,7 +2860,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "flattering V neckline, flattering front, slit at the hem, zip front",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000684",
@@ -2797,7 +2883,8 @@
         "occasion": "casual, evening, vacation",
         "season": "spring, summer",
         "special_design": "high-low hem, wide slit",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000743",
@@ -2832,7 +2919,8 @@
         "occasion": "casual, summer outing, daywear",
         "season": "spring, summer",
         "special_design": "scalloped hem, lacy yoke, ruffled hem, button fly",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00000003",
@@ -2855,7 +2943,8 @@
         "occasion": "work to play",
         "season": "unknown",
         "special_design": "pleated bodice and skirt",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00007481",
@@ -2877,7 +2966,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "front slit",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00007556",
@@ -2919,7 +3009,8 @@
         "occasion": "work, casual",
         "season": "spring, summer",
         "special_design": "polka dot print",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00007139",
@@ -2949,7 +3040,8 @@
         "occasion": "casual, everyday",
         "season": "unknown",
         "special_design": "tie waist, drawstring waist, high waist, wide leg, slouchy cutout, belted waist",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00004070",
@@ -2983,7 +3075,8 @@
         "occasion": "casual, everyday",
         "season": "spring, summer",
         "special_design": "high slit hem",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00005974",
@@ -3005,7 +3098,8 @@
         "occasion": "casual, workwear",
         "season": "spring, autumn",
         "special_design": "wide pleats, cropped silhouette",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00006534",
@@ -3027,7 +3121,8 @@
         "occasion": "casual, semi-formal",
         "season": "spring, summer",
         "special_design": "belted waist",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00006341",
@@ -3049,7 +3144,8 @@
         "occasion": "casual, vacation, evening",
         "season": "spring, summer",
         "special_design": "tie-waist",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00005000",
@@ -3087,7 +3183,8 @@
         "occasion": "casual, party, evening",
         "season": "spring, fall, winter",
         "special_design": "sheer bodice, cutout detail, slit hem",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00005796",
@@ -3125,7 +3222,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "slimming belt and slimming waist",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00006250",
@@ -3151,7 +3249,8 @@
         "occasion": "evening, casual, statement wear",
         "season": "summer, spring",
         "special_design": "leopard print, contrast panel, waist tie",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00007168",
@@ -3181,7 +3280,8 @@
         "occasion": "work to play",
         "season": "unknown",
         "special_design": "wide belted waist, slouchy high waist, wide leg, slim leg, pleat, draped skirt, drawstring waist, pleated cuff",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00005452",
@@ -3207,7 +3307,8 @@
         "occasion": "work, smart casual",
         "season": "spring/summer",
         "special_design": "pinstripe pattern",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00001426",
@@ -3233,7 +3334,8 @@
         "occasion": "casual",
         "season": "unknown",
         "special_design": "chain link, drawstring waist",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000315",
@@ -3259,7 +3361,8 @@
         "occasion": "casual, summer outing",
         "season": "summer",
         "special_design": "all-over print",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000394",
@@ -3281,7 +3384,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "floral print",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00003919",
@@ -3331,7 +3435,8 @@
         "occasion": "casual, lounge, weekend getaway",
         "season": "summer, spring",
         "special_design": "cropped bodice, tie waist, satiny finish",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00003829",
@@ -3358,7 +3463,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "button",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00005123",
@@ -3381,7 +3487,8 @@
         "occasion": "casual, loungewear",
         "season": "spring, fall",
         "special_design": "lace panel, cutaway shoulder, drawstring detailing",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00005755",
@@ -3403,7 +3510,8 @@
         "occasion": "casual, lounge",
         "season": "spring, early fall",
         "special_design": "cowl hem detailing",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00004074",
@@ -3425,7 +3533,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "sheer mesh bodice, high waist",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00003660",
@@ -3469,7 +3578,8 @@
         "occasion": "casual, loungewear, travel",
         "season": "fall, winter, spring",
         "special_design": "drawstring waist, zip front, removable hood",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00003318",
@@ -3500,7 +3610,8 @@
         "occasion": "lounging",
         "season": "unknown",
         "special_design": "hood with drawstring pouch",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00005200",
@@ -3522,7 +3633,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "tie dye pattern",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00004830",
@@ -3544,7 +3656,8 @@
         "occasion": "casual, lounge, fall layering",
         "season": "fall, winter",
         "special_design": "bold graphic pattern, chunky texture",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00004591",
@@ -3566,7 +3679,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "bold floral print",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00000126",
@@ -3592,7 +3706,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "monogram motif",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000247",
@@ -3613,7 +3728,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "drapey surplice bodice, drapey tie at the neckline, cowl shaped cowl",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00001249",
@@ -3665,7 +3781,8 @@
         "occasion": "casual, lounge, travel",
         "season": "fall, winter, transitional",
         "special_design": "drawstring waist, removable hood, slouchy fit",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000775",
@@ -3699,7 +3816,8 @@
         "occasion": "Casual, Loungewear, Cold weather",
         "season": "Fall/Winter",
         "special_design": "Drawstring hood, Zip front, Plaid pattern, Geometric print, Ruffled hem",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000342",
@@ -3724,7 +3842,8 @@
         "occasion": "unknown",
         "season": "chilly",
         "special_design": "chunky hem, dropped shoulder, slouchy fit",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00000679",
@@ -3749,7 +3868,8 @@
         "occasion": "Casual, Daywear, Summer outing",
         "season": "Spring/Summer",
         "special_design": "Lacy yoke, Cutout back, Scalloped hem, Drapey silhouette",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00000593",
@@ -3772,7 +3892,8 @@
         "occasion": "adventure",
         "season": "unknown",
         "special_design": "removable hood",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00000764",
@@ -3794,7 +3915,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "raw hem and raw edge",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000590",
@@ -3816,7 +3938,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "raw hem",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000157",
@@ -3844,7 +3967,8 @@
         "occasion": "Casual, Transitional weather, Everyday wear",
         "season": "Spring/Fall",
         "special_design": "Tie waist, Drapey silhouette, Slouchy fit, Double-breasted",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000013",
@@ -3871,7 +3995,8 @@
         "occasion": "unknown",
         "season": "chilly",
         "special_design": "plush faux fur collar, removable hood, removable waist feature, double breasted",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000069",
@@ -3896,7 +4021,8 @@
         "occasion": "Work, Business casual, Evening",
         "season": "Fall/Spring",
         "special_design": "Double-breasted, Slim fit, Drapey silhouette",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000187",
@@ -3940,7 +4066,8 @@
         "occasion": "Casual, Workwear",
         "season": "Spring, Fall",
         "special_design": "Drawstring waist, Double-breasted, Removable hood, Cropped silhouette, Slouchy fit",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000163",
@@ -3962,7 +4089,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "tie at the waist",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00000054",
@@ -3984,7 +4112,8 @@
         "occasion": "Casual, Travel",
         "season": "Fall, Spring",
         "special_design": "Slouchy fit, Wide lapel",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000116",
@@ -4006,7 +4135,8 @@
         "occasion": "Lounge, Casual",
         "season": "Fall, Winter",
         "special_design": "Heathered texture, Slouchy fit",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00001032",
@@ -4040,7 +4170,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "contrast collar and contrasting trim",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00002262",
@@ -4070,7 +4201,8 @@
         "occasion": "everyday,work,play,casual weekend,work to play",
         "season": "unknown",
         "special_design": "pleated waist, tie at the waist,slouchy high waist",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00001880",
@@ -4097,7 +4229,8 @@
         "occasion": "laid back weekend getaway",
         "season": "unknown",
         "special_design": "drawstring waist",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00001398",
@@ -4131,7 +4264,8 @@
         "occasion": "street style",
         "season": "unknown",
         "special_design": "raw hem, frayed hem, faded wash, whiskered finish, tie at the neck",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00002691",
@@ -4181,7 +4315,8 @@
         "occasion": "Casual, Lounge",
         "season": "Spring, Summer",
         "special_design": "Drawstring waist, Pleated cuff, Tie waist, Wide leg",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00003202",
@@ -4214,7 +4349,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "graphic print, cutout, drawstring waist",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000286",
@@ -4256,7 +4392,8 @@
         "occasion": "Casual, Work-to-play",
         "season": "Spring, Summer",
         "special_design": "Frayed hem, Eyelet embroidery, Mesh panel, Tie waist",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00007976",
@@ -4279,7 +4416,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "striped bandeau",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00007914",
@@ -4324,7 +4462,8 @@
         "occasion": "Casual, Activewear",
         "season": "Spring, Summer",
         "special_design": "Built-in bra, Slim fit",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00007891",
@@ -4348,7 +4487,8 @@
         "occasion": "Casual, Evening",
         "season": "Spring, Summer",
         "special_design": "Built-in bra, Ruched bodice, Seamless back",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00007877",
@@ -4375,7 +4515,8 @@
         "occasion": "Casual, Evening, Summer outing",
         "season": "Summer, Spring",
         "special_design": "Crisscross back, Metallic shimmer, Cutout back",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00007880",
@@ -4398,7 +4539,8 @@
         "occasion": "laid back weekend getaway",
         "season": "unknown",
         "special_design": "polka dot pattern",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00007961",
@@ -4431,7 +4573,8 @@
         "occasion": "['night out', 'any occasion', 'summer']",
         "season": "['summer']",
         "special_design": "['lace trimmed bodice', 'lacy hem', 'eyelet', 'pop of burberry']",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00007862",
@@ -4457,7 +4600,8 @@
         "occasion": "Casual, Summer Outing",
         "season": "Summer, Spring",
         "special_design": "Bold geometric print, Animal print (leopard), High waist, Drapey fit",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00000060",
@@ -4483,7 +4627,8 @@
         "occasion": "casual, everyday",
         "season": "unknown",
         "special_design": "scalloped hem, wide brimmed band, lacy back yoke, lacy pattern",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000102",
@@ -4510,7 +4655,8 @@
         "occasion": "Casual, Semi-formal, Summer outing",
         "season": "Summer, Spring",
         "special_design": "Wide open back, Pleated trim, Color-pop detailing",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00000101",
@@ -4535,7 +4681,8 @@
         "occasion": "any occasion",
         "season": "unknown",
         "special_design": "leopard print",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00000026",
@@ -4569,7 +4716,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "wide brim of lace, lacy bodice",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00007779",
@@ -4604,7 +4752,8 @@
         "occasion": "Casual, Daywear",
         "season": "Spring, Summer",
         "special_design": "Lacy yoke, Button placket, Tassel detailing",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00007857",
@@ -4630,7 +4779,8 @@
         "occasion": "weekend",
         "season": "next",
         "special_design": "color blocked, ruffled",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00007793",
@@ -4652,7 +4802,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "scalloped hem, slit at the back, high low hem",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00000032",
@@ -4676,7 +4827,8 @@
         "occasion": "everyday",
         "season": "unknown",
         "special_design": "ribbed knit, lacy",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000079",
@@ -4712,7 +4864,8 @@
         "occasion": "Party, Casual Nightwear, Clubwear",
         "season": "Spring, Summer",
         "special_design": "Thong back, Mesh insets, Color blocking, Scalloped hem",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000007",
@@ -4735,7 +4888,8 @@
         "occasion": "Casual, Concert, Streetwear",
         "season": "Spring, Summer",
         "special_design": "Iconic graphic print",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000012",
@@ -4757,7 +4911,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "lacy bodice, lacy cut",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000596",
@@ -4787,7 +4942,8 @@
         "occasion": "everyday look",
         "season": "unknown",
         "special_design": "scalloped hem, lacy, high waist, smocked bodice and waist",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00001404",
@@ -4839,7 +4995,8 @@
         "occasion": "Daily wear, Lounging, Workout",
         "season": "Spring, Summer",
         "special_design": "Seamless waistband, Coordinated sets",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00001354",
@@ -4875,7 +5032,8 @@
         "occasion": "Casual outings, Summer wear",
         "season": "Spring, Summer",
         "special_design": "Frayed hem, Cutoff hem, Tassel detail, Scalloped edge",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00006861",
@@ -4898,7 +5056,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "tie at the waist, frill trimmed bodice, drawstring waist, swingy hem",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000577",
@@ -4925,7 +5084,8 @@
         "occasion": "everyday",
         "season": "unknown",
         "special_design": "frayed hem, scalloped hem, ruffled hem",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00006763",
@@ -4965,7 +5125,8 @@
         "occasion": "Casual, Lounging, Summer activities",
         "season": "Spring, Summer",
         "special_design": "Drawstring waist, Ruffled hem, Scalloped edge, Racerback top (seen in sets), Embroidery",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000347",
@@ -4987,7 +5148,8 @@
         "occasion": "Summer outing, Casual wear, Vacation",
         "season": "Spring, Summer",
         "special_design": "Embroidered, Ikat pattern, Lace-trimmed hem, Ruffled hem, Tie-waist",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000103",
@@ -5025,7 +5187,8 @@
         "occasion": "Casual, Semi-formal, Summer office wear",
         "season": "",
         "special_design": "",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00005300",
@@ -5047,7 +5210,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "graphic print with logo graphic at the front",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00007251",
@@ -5070,7 +5234,8 @@
         "occasion": "Casual outings, relaxed daywear",
         "season": "Spring/Summer",
         "special_design": "Graphic print, slit hem, drapey silhouette",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00007919",
@@ -5093,7 +5258,8 @@
         "occasion": "Everyday, athleisure, casual outings",
         "season": "Spring/Summer",
         "special_design": "Graphic print, ruffled hem",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00003368",
@@ -5116,7 +5282,8 @@
         "occasion": "casual",
         "season": "unknown",
         "special_design": "side slit, cropped hem, sheer mesh bodice",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000195",
@@ -5139,7 +5306,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "tie dye pattern, ruffled hem, graphic print",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00003108",
@@ -5161,7 +5329,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "Graphic print",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00004566",
@@ -5183,7 +5352,8 @@
         "occasion": "work",
         "season": "unknown",
         "special_design": "graphic print",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000449",
@@ -5206,7 +5376,8 @@
         "occasion": "Everyday wear, casual, lounge",
         "season": "Spring/Summer",
         "special_design": "Motivational graphic prints",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00000659",
@@ -5229,7 +5400,8 @@
         "occasion": "Casual, everyday, summer outings",
         "season": "Spring/Summer",
         "special_design": "Color-blocked panels, bold logo graphic",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00004993",
@@ -5257,7 +5429,8 @@
         "occasion": "casual",
         "season": "unknown",
         "special_design": "graphic print",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00004468",
@@ -5280,7 +5453,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "graphic print",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00001825",
@@ -5311,7 +5485,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "surplice,high low hem, wide leg",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00000588",
@@ -5337,7 +5512,8 @@
         "occasion": "work to play",
         "season": "unknown",
         "special_design": "crisscrossed pattern, geometric pattern, grid patterning, high waist, drapey open front, drapey high low hem",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00001666",
@@ -5359,7 +5535,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "bold print, bold graphic pattern",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000879",
@@ -5381,7 +5558,8 @@
         "occasion": "Casual, lounge, semi-formal",
         "season": "All-season",
         "special_design": "Cutaway shoulder, statement collar, chain accent",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00000737",
@@ -5407,7 +5585,8 @@
         "occasion": "Casual, resort wear, summer outing",
         "season": "Spring/Summer",
         "special_design": "Sheer panels, lacy yoke, tassel tie, draped cutouts",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00000982",
@@ -5434,7 +5613,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "polka dot print, tassel",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00001194",
@@ -5463,7 +5643,8 @@
         "occasion": "Daytime outing, vacation, casual wear",
         "season": "Spring/Summer",
         "special_design": "Flared hem, ribbon accents, cinched waist",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00000453",
@@ -5485,7 +5666,8 @@
         "occasion": "casual, daytime outing, vacation",
         "season": "spring/summer",
         "special_design": "cutout back, strappy design",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000015",
@@ -5508,7 +5690,8 @@
         "occasion": "date, party, semi-formal",
         "season": "spring/summer",
         "special_design": "scalloped hem, sheer yoke, lace detailing",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000351",
@@ -5542,7 +5725,8 @@
         "occasion": "everyday",
         "season": "unknown",
         "special_design": "ruffled,scalloped,ruched,tie at the waist,tie at the neckline",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00000442",
@@ -5568,7 +5752,8 @@
         "occasion": "casual, daytime",
         "season": "spring/summer",
         "special_design": "tie detail, raw hem, faded wash",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000392",
@@ -5591,7 +5776,8 @@
         "occasion": "vacation, casual summer",
         "season": "summer",
         "special_design": "tropical and floral print",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000067",
@@ -5613,7 +5799,8 @@
         "occasion": "casual, summer outings",
         "season": "summer",
         "special_design": "delicate embroidery",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000057",
@@ -5639,7 +5826,8 @@
         "occasion": "casual, day-out, semi-formal",
         "season": "spring, summer",
         "special_design": "bold animal print, ruffled hem, pop of color",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000155",
@@ -5660,7 +5848,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "racerback",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000350",
@@ -5686,7 +5875,8 @@
         "occasion": "casual, semi-formal",
         "season": "spring, summer",
         "special_design": "tassel tie, bold animal print",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00000093",
@@ -5708,7 +5898,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "smocked bodice",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00001335",
@@ -5734,7 +5925,8 @@
         "occasion": "casual",
         "season": "unknown",
         "special_design": "slouchy fit, slouchy hem, slouchy silhouette",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00001436",
@@ -5756,7 +5948,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "bold geometric pattern, bold leopard print, bold snake print",
-        "price": 799
+        "price": 799,
+        "isFavorite": false
     },
     {
         "id": "id_00007972",
@@ -5778,7 +5971,8 @@
         "occasion": "casual, semi-formal",
         "season": "spring, summer",
         "special_design": "back cutout",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00000643",
@@ -5800,7 +5994,8 @@
         "occasion": "any",
         "season": "unknown",
         "special_design": "halter",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00000035",
@@ -5829,7 +6024,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "thigh baring slit,ruched front,slou,front slit,slou,scooped back",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00000301",
@@ -5856,7 +6052,8 @@
         "occasion": "casual, evening, party",
         "season": "spring, summer",
         "special_design": "tie at waist, pleated bodice",
-        "price": 2299
+        "price": 2299,
+        "isFavorite": false
     },
     {
         "id": "id_00000073",
@@ -5878,7 +6075,8 @@
         "occasion": "unknown",
         "season": "summer",
         "special_design": "ruffled tiered",
-        "price": 999
+        "price": 999,
+        "isFavorite": false
     },
     {
         "id": "id_00000229",
@@ -5900,7 +6098,8 @@
         "occasion": "unknown",
         "season": "summer",
         "special_design": "floral print",
-        "price": 1299
+        "price": 1299,
+        "isFavorite": false
     },
     {
         "id": "id_00000422",
@@ -5922,7 +6121,8 @@
         "occasion": "casual, daytime, vacation",
         "season": "summer, spring",
         "special_design": "drawstring waist, ruffled tiered skirt, tassel tie",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00000277",
@@ -5949,7 +6149,8 @@
         "occasion": "beach, vacation, evening",
         "season": "summer, spring",
         "special_design": "ruffled bodice, side slit, tie waist, striped pattern",
-        "price": 399
+        "price": 399,
+        "isFavorite": false
     },
     {
         "id": "id_00000088",
@@ -5972,7 +6173,8 @@
         "occasion": "party, evening wear, date night",
         "season": "summer, spring",
         "special_design": "cutout neckline, flared hem",
-        "price": 1899
+        "price": 1899,
+        "isFavorite": false
     },
     {
         "id": "id_00000250",
@@ -6002,7 +6204,8 @@
         "occasion": "",
         "season": "fall, winter",
         "special_design": "leopard/animal print, slit, wide leg ",
-        "price": 1499
+        "price": 1499,
+        "isFavorite": false
     },
     {
         "id": "id_00000348",
@@ -6031,7 +6234,8 @@
         "occasion": "unknown",
         "season": "unknown",
         "special_design": "mesh inset",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     },
     {
         "id": "id_00000034",
@@ -6053,6 +6257,7 @@
         "occasion": "summer event, vacation, daytime outing",
         "season": "spring, summer",
         "special_design": "floral print",
-        "price": 599
+        "price": 599,
+        "isFavorite": false
     }
 ]

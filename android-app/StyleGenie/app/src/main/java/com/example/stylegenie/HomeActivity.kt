@@ -13,7 +13,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 import com.google.firebase.database.*
 
@@ -26,7 +25,6 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var progressBar: ProgressBar
     private lateinit var chipGroup: ChipGroup
     private lateinit var etSearch: EditText
-
 
     private val productList = mutableListOf<Product>()
 
@@ -41,21 +39,19 @@ class HomeActivity : AppCompatActivity() {
         chipGroup = findViewById(R.id.chipGroupCategories)
         etSearch = findViewById(R.id.etSearch)
 
+        // 📝 Listen to search input
         etSearch.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
-
+            override fun afterTextChanged(s: Editable?) {}
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
                 filterProducts(s.toString())
             }
-
-            override fun afterTextChanged(s: Editable?) {}
         })
-
 
         // 🔄 Setup RecyclerView
         recyclerView.layoutManager = GridLayoutManager(this, 2)
         recyclerView.setHasFixedSize(true)
-        productAdapter = ProductAdapter(productList)
+        productAdapter = ProductAdapter(productList.toMutableList())
         recyclerView.adapter = productAdapter
 
         // 🔗 Firebase reference
@@ -63,27 +59,20 @@ class HomeActivity : AppCompatActivity() {
             "https://stylegenie-9c50a-default-rtdb.asia-southeast1.firebasedatabase.app"
         ).reference
 
-        // 🔧 Category filter logic
-        setupCategoryFilters()
-
-        // 🚀 Initial load
+        // ⏳ Load all products initially
         fetchProductsFromFirebase()
 
-        // 🔧 Bottom nav
+        // 🟣 Chip click filters
+        setupCategoryFilters()
+
+        // ⬇️ Bottom navigation
         setupBottomNav()
     }
-    private fun filterProducts(query: String) {
-        val filteredList = productList.filter {
-            it.category.contains(query, ignoreCase = true) ||
-                    it.category.contains(query, ignoreCase = true)
-        }
-        productAdapter.updateList(filteredList)
-    }
-
 
     private fun setupCategoryFilters() {
         chipGroup.setOnCheckedChangeListener { _, checkedId ->
             animateAndLoad {
+                etSearch.setText("") // clear search when chip is changed
                 when (checkedId) {
                     R.id.chipAll -> fetchProductsFromFirebase()
                     R.id.chipMens -> fetchProductsByGender("Men")
@@ -108,35 +97,29 @@ class HomeActivity : AppCompatActivity() {
 
     private fun fetchProductsFromFirebase() {
         progressBar.visibility = View.VISIBLE
-
         databaseRef.addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 productList.clear()
-
-                if (!snapshot.exists()) {
-                    Toast.makeText(this@HomeActivity, "No products found", Toast.LENGTH_SHORT).show()
-                    progressBar.visibility = View.GONE
-                    return
-                }
-
                 for (productSnapshot in snapshot.children) {
                     val product = productSnapshot.getValue(Product::class.java)
-                    product?.let { productList.add(it) }
+                    product?.let {
+                        it.id = productSnapshot.key ?: ""  // ✅ Set product ID from Firebase key
+                        productList.add(it)
+                    }
                 }
-
-                productList.shuffle() // Mix gender data
-                productAdapter.notifyDataSetChanged()
+                productList.shuffle()
+                productAdapter.updateList(productList)
                 progressBar.visibility = View.GONE
                 Log.d("HomeActivity", "Fetched ${productList.size} products")
             }
 
             override fun onCancelled(error: DatabaseError) {
                 Toast.makeText(this@HomeActivity, "Failed to fetch products", Toast.LENGTH_SHORT).show()
-                Log.e("HomeActivity", "Firebase error: ${error.message}")
                 progressBar.visibility = View.GONE
             }
         })
     }
+
 
     private fun fetchProductsByGender(gender: String) {
         progressBar.visibility = View.VISIBLE
@@ -146,10 +129,11 @@ class HomeActivity : AppCompatActivity() {
                 for (productSnapshot in snapshot.children) {
                     val product = productSnapshot.getValue(Product::class.java)
                     if (product != null && product.gender.equals(gender, ignoreCase = true)) {
+                        product.id = productSnapshot.key ?: "" // ✅ Set ID
                         productList.add(product)
                     }
                 }
-                productAdapter.notifyDataSetChanged()
+                productAdapter.updateList(productList)
                 progressBar.visibility = View.GONE
             }
 
@@ -168,10 +152,11 @@ class HomeActivity : AppCompatActivity() {
                 for (productSnapshot in snapshot.children) {
                     val product = productSnapshot.getValue(Product::class.java)
                     if (product != null && product.category.equals(category, ignoreCase = true)) {
+                        product.id = productSnapshot.key ?: "" // ✅ Set ID
                         productList.add(product)
                     }
                 }
-                productAdapter.notifyDataSetChanged()
+                productAdapter.updateList(productList)
                 progressBar.visibility = View.GONE
             }
 
@@ -180,6 +165,20 @@ class HomeActivity : AppCompatActivity() {
                 progressBar.visibility = View.GONE
             }
         })
+    }
+
+
+    private fun filterProducts(query: String) {
+        val lowercaseQuery = query.trim().lowercase()
+
+        val filteredList = productList.filter { product ->
+            product.category.lowercase().contains(lowercaseQuery) ||
+                    product.description.lowercase().contains(lowercaseQuery) ||
+                    product.gender.lowercase().contains(lowercaseQuery) ||
+                    product.category?.lowercase()?.contains(lowercaseQuery) == true
+        }
+
+        productAdapter.updateList(filteredList)
     }
 
     private fun setupBottomNav() {

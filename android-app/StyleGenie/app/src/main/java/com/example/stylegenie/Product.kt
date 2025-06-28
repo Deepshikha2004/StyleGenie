@@ -3,11 +3,11 @@ package com.example.stylegenie
 import java.io.Serializable
 
 data class Product(
-    val id: String = "",
-    val category: String = "",      // 🟢 This will be used as product name
+    var id: String = "",
+    val category: String = "",
     val gender: String = "",
-    val img_path: String = "",      // 🟢 Base URL for image
-    val images: List<String> = emptyList(), // 🟢 Contains image names
+    val img_path: String = "",
+    val images: List<String> = emptyList(),
     val description: String = "",
     val neckline: String = "",
     val sleeve: String = "",
@@ -17,15 +17,25 @@ data class Product(
     val occasion: String = "",
     val season: String = "",
     val special_design: String = "",
-    val price: Int = 0,             // 🛠️ Fixed type mismatch
+    val price: Int = 0,
+
+    // This is a workaround to allow Firebase to deserialize both "true"/"false" strings and booleans
+    var isFavoriteRaw: Any? = false
+) : Serializable {
+
     var isFavorite: Boolean = false
-): Serializable {
+        get() = when (isFavoriteRaw) {
+            is Boolean -> isFavoriteRaw as Boolean
+            is String -> (isFavoriteRaw as String).toBoolean()
+            else -> false
+        }
+
     // 🔄 Helper function to get image URL
     fun getFirstImageUrl(): String {
         return if (images.isNotEmpty()) {
             "$img_path/${images[0]}"
                 .replace("github.com", "raw.githubusercontent.com")
-                .replace("/tree/", "/")  // GitHub to Raw GitHub
+                .replace("/tree/", "/")
         } else ""
     }
 }
