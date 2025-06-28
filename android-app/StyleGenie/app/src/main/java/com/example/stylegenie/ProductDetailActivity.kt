@@ -36,29 +36,41 @@ class ProductDetailActivity : AppCompatActivity() {
         btnBuyNow = findViewById(R.id.btnBuyNow)
         btnBack = findViewById(R.id.btnBack)
 
-        val name = intent.getStringExtra("category") ?: "Sample Product"         // ✅ FIXED
+        // ✅ Get intent data (match keys from adapter)
+        val name = intent.getStringExtra("name") ?: "Sample Product"
         val price = intent.getStringExtra("price") ?: "₹0"
         val description = intent.getStringExtra("description") ?: "No description available."
-        val imageUrl = intent.getStringExtra("img_path") ?: ""                   // ✅ FIXED
+        val imgPath = intent.getStringExtra("img_path") ?: ""
+        val imageList = intent.getStringArrayListExtra("imageList") ?: arrayListOf()
 
-        // Set views
+        // Set product info
         textProductName.text = name
         textProductPrice.text = price
         textProductDescription.text = description
 
-        if (imageUrl.isNotEmpty()) {
-            Glide.with(this).load(imageUrl).into(imageProduct)
+        // Build valid image URL from GitHub raw link
+        val firstImageUrl = if (imageList.isNotEmpty()) {
+            "$imgPath/${imageList[0]}"
+                .replace("github.com", "raw.githubusercontent.com")
+                .replace("/tree/", "/")
+        } else ""
+
+        // Load image
+        if (firstImageUrl.isNotEmpty()) {
+            Glide.with(this).load(firstImageUrl).into(imageProduct)
         } else {
             imageProduct.setImageResource(R.drawable.fashion_image2)
         }
 
-        // Back button functionality
+        // Back button
         btnBack.setOnClickListener {
             finish()
             overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
         }
 
         // Quantity logic
+        textQuantity.text = quantity.toString()
+
         btnIncreaseQty.setOnClickListener {
             if (quantity < 10) {
                 quantity++
@@ -75,12 +87,10 @@ class ProductDetailActivity : AppCompatActivity() {
 
         btnAddToCart.setOnClickListener {
             Toast.makeText(this, "$name added to bag (x$quantity)", Toast.LENGTH_SHORT).show()
-            // TODO: Add cart logic here
         }
 
         btnBuyNow.setOnClickListener {
             Toast.makeText(this, "Proceeding to buy $name (x$quantity)", Toast.LENGTH_SHORT).show()
-            // TODO: Navigate to checkout
         }
     }
 }

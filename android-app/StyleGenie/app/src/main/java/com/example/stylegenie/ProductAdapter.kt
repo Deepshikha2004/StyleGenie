@@ -29,17 +29,25 @@ class ProductAdapter(
     }
 
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
-        val product = productList[position]
 
-        // ✅ Load product image from 'img_path' (full URL)
+
+        // ✅ Construct valid image URL from GitHub
+        val product = productList[position]
+        val imageUrl = if (product.images.isNotEmpty()) {
+            "${product.img_path}/${product.images[0]}"
+                .replace("github.com", "raw.githubusercontent.com")
+                .replace("/tree/", "/")
+        } else ""
+
+// Load image
         Glide.with(holder.itemView.context)
-            .load(product.img_path)
-            .placeholder(R.drawable.ic_launcher_background)
+            .load(imageUrl)
             .into(holder.imageProduct)
 
+
         // ✅ Set product name and price
-        holder.textProductName.text = product.category // category is the product name
-        holder.textProductPrice.text = product.price.toString()
+        holder.textProductName.text = product.category
+        holder.textProductPrice.text = "₹${product.price}"
 
         // ✅ Favorite toggle
         val favoriteIcon = if (product.isFavorite) {
@@ -54,14 +62,15 @@ class ProductAdapter(
             notifyItemChanged(position)
         }
 
-        // ✅ On item click, go to ProductDetailActivity
+        // ✅ Go to ProductDetailActivity
         holder.itemView.setOnClickListener {
             val context = holder.itemView.context
             val intent = Intent(context, ProductDetailActivity::class.java).apply {
                 putExtra("category", product.category)
-                putExtra("price", product.price)
+                putExtra("price", "₹${product.price}")
                 putExtra("description", product.description)
                 putExtra("img_path", product.img_path)
+                putStringArrayListExtra("imageList", ArrayList(product.images))
             }
             context.startActivity(intent)
 

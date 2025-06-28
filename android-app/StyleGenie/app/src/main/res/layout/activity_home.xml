@@ -106,27 +106,54 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="@string/alll" style="@style/Widget.AppCompat.Button.Borderless"
+            <Button
+                android:id="@+id/btnAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:textColor="#000" />
-            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="@string/mens" style="@style/Widget.AppCompat.Button.Borderless"
+
+            <Button
+                android:id="@+id/btnMens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Men"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:textColor="#000" />
-            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="@string/womens" style="@style/Widget.AppCompat.Button.Borderless"
+
+            <Button
+                android:id="@+id/btnWomens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Women"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:textColor="#000" />
-            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="@string/shirt" style="@style/Widget.AppCompat.Button.Borderless"
+
+            <Button
+                android:id="@+id/btnShirt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shirt"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:textColor="#000" />
-            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="@string/pant" style="@style/Widget.AppCompat.Button.Borderless"
+
+            <Button
+                android:id="@+id/btnPant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pant"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:textColor="#000" />
-            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="@string/ethnics" style="@style/Widget.AppCompat.Button.Borderless"
+
+            <Button
+                android:id="@+id/btnDress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dress"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:textColor="#000" />
-            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="@string/kid" style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="#000" />
+
         </LinearLayout>
     </HorizontalScrollView>
 
