@@ -27,4 +27,6 @@
     <string name="cart">Cart</string>
     <string name="menu">Menu</string>
     <string name="stylegenies">StyleGenie</string>
+    <string name="default_web_client_id">your-client-id-from-google-services.json</string>
+
 </resources>

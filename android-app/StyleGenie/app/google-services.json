@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "931245647077",
+    "firebase_url": "https://stylegenie-9c50a-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "stylegenie-9c50a",
     "storage_bucket": "stylegenie-9c50a.firebasestorage.app"
   },
@@ -12,7 +13,20 @@
           "package_name": "com.example.stylegenie"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "931245647077-7hntnecj6uqbn5servot6eot497ekspr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stylegenie",
+            "certificate_hash": "9352656e940334965c39f81b1f79d92090f90f53"
+          }
+        },
+        {
+          "client_id": "931245647077-7e1gsojdsl4dfbmi7rvqrd9glasb640m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDDpDukADy4tw6aZkB2lk-WSuxIJQrBuik"
@@ -20,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931245647077-7e1gsojdsl4dfbmi7rvqrd9glasb640m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
