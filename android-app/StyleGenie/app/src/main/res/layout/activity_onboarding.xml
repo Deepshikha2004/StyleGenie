@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="StyleGenie"
-        android:textSize="24sp"
+        android:textSize="28sp"
         android:textStyle="bold"
         android:textColor="#000"
         app:layout_constraintTop_toTopOf="parent"
@@ -30,24 +30,12 @@
         android:background="@drawable/rounded_image_bg"
         android:scaleType="centerCrop"
         android:src="@drawable/fashion_image"
-        app:layout_constraintBottom_toTopOf="@id/loginOptions"
         app:layout_constraintDimensionRatio="3:4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/titleText" />
 
-    <!-- Login Options Text -->
-    <TextView
-        android:id="@+id/loginOptions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sign up Or Log In"
-        android:textColor="#000"
-        android:textSize="14sp"
-        app:layout_constraintTop_toBottomOf="@id/centerImage"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="12dp" />
+
 
     <!-- Google Icon -->
     <ImageView
@@ -59,21 +47,23 @@
         android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginBottom="24dp"
-        android:layout_marginStart="24dp" />
+        android:layout_marginBottom="48dp"
+        android:layout_marginStart="32dp" />
 
     <!-- Get Started Button -->
     <Button
         android:id="@+id/btnGetStarted"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Get Started →"
+        android:text="Get Started -->"
         android:backgroundTint="#FFFFFF"
+        app:circularflow_radiusInDP="36sp"
         android:textColor="#0E0E0E"
         app:layout_constraintStart_toEndOf="@id/googleIcon"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/googleIcon"
+        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginStart="12dp"
-        android:layout_marginEnd="24dp" />
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="46dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

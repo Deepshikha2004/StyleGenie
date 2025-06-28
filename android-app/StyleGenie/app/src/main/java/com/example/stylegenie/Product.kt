@@ -2,35 +2,24 @@ package com.example.stylegenie
 
 import java.io.Serializable
 
-data class Product(
-    var id: String = "",
-    val category: String = "",
-    val gender: String = "",
-    val img_path: String = "",
-    val images: List<String> = emptyList(),
-    val description: String = "",
-    val neckline: String = "",
-    val sleeve: String = "",
-    val length: String = "",
-    val style: String = "",
-    val fabric: String = "",
-    val occasion: String = "",
-    val season: String = "",
-    val special_design: String = "",
-    val price: Int = 0,
-
-    // This is a workaround to allow Firebase to deserialize both "true"/"false" strings and booleans
-    var isFavoriteRaw: Any? = false
-) : Serializable {
-
+class Product() : Serializable {
+    var id: String = ""
+    var category: String = ""
+    var gender: String = ""
+    var img_path: String = ""
+    var images: List<String> = emptyList()
+    var description: String = ""
+    var neckline: String = ""
+    var sleeve: String = ""
+    var length: String = ""
+    var style: String = ""
+    var fabric: String = ""
+    var occasion: String = ""
+    var season: String = ""
+    var special_design: String = ""
+    var price: Int = 0
     var isFavorite: Boolean = false
-        get() = when (isFavoriteRaw) {
-            is Boolean -> isFavoriteRaw as Boolean
-            is String -> (isFavoriteRaw as String).toBoolean()
-            else -> false
-        }
 
-    // 🔄 Helper function to get image URL
     fun getFirstImageUrl(): String {
         return if (images.isNotEmpty()) {
             "$img_path/${images[0]}"

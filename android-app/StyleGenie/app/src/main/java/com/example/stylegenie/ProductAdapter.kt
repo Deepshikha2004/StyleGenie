@@ -32,23 +32,21 @@ class ProductAdapter(
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
         val product = productList[position]
 
-        // ✅ Construct valid image URL from GitHub
+        // Load image from GitHub
         val imageUrl = if (product.images.isNotEmpty()) {
             "${product.img_path}/${product.images[0]}"
                 .replace("github.com", "raw.githubusercontent.com")
                 .replace("/tree/", "/")
         } else ""
 
-        // Load image
         Glide.with(holder.itemView.context)
             .load(imageUrl)
             .into(holder.imageProduct)
 
-        // Set product name and price
         holder.textProductName.text = product.category
         holder.textProductPrice.text = "₹${product.price}"
 
-        // Set favorite icon state
+        // Set correct heart icon
         val favoriteIcon = if (product.isFavorite) {
             R.drawable.ic_heart_filled
         } else {
@@ -56,34 +54,35 @@ class ProductAdapter(
         }
         holder.imageFavorite.setImageResource(favoriteIcon)
 
-        // ✅ Favorite toggle with Firebase update
+        // Toggle favorite state
         holder.imageFavorite.setOnClickListener {
             val newFavorite = !product.isFavorite
-            product.isFavoriteRaw = newFavorite
-
+            product.isFavorite = newFavorite
             notifyItemChanged(position)
 
-            // Ensure product has ID (assigned during fetch)
-            val productId = product.id ?: run {
-                Log.e("ProductAdapter", "Product ID is null, can't update favorite")
-                return@setOnClickListener
+            val productId = product.id
+            if (productId.isNotBlank()) {
+                val dbRef = FirebaseDatabase.getInstance(
+                    "https://stylegenie-9c50a-default-rtdb.asia-southeast1.firebasedatabase.app"
+                ).getReference("products").child(product.id)
+
+
+
+
+
+                dbRef.child("isFavorite").setValue(newFavorite)
+                    .addOnSuccessListener {
+                        Log.d("ProductAdapter", "Favorite updated for $productId: $newFavorite")
+                    }
+                    .addOnFailureListener { e ->
+                        Log.e("ProductAdapter", "Failed to update favorite: ${e.message}")
+                    }
+            } else {
+                Log.e("ProductAdapter", "Product ID is blank. Cannot update favorite.")
             }
-
-            val databaseRef = FirebaseDatabase.getInstance(
-                "https://stylegenie-9c50a-default-rtdb.asia-southeast1.firebasedatabase.app"
-            ).reference.child(productId)
-
-            databaseRef.child("isFavorite").setValue(product.isFavorite)
-                .addOnSuccessListener {
-                    Log.d("ProductAdapter", "Favorite updated for $productId")
-                }
-                .addOnFailureListener { e ->
-                    Log.e("ProductAdapter", "Failed to update favorite: ${e.message}")
-                }
         }
 
-
-        // Go to ProductDetailActivity
+        // Open product detail
         holder.itemView.setOnClickListener {
             val context = holder.itemView.context
             val intent = Intent(context, ProductDetailActivity::class.java).apply {

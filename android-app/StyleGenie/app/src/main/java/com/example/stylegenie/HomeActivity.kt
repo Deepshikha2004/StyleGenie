@@ -54,7 +54,7 @@ class HomeActivity : AppCompatActivity() {
         productAdapter = ProductAdapter(productList.toMutableList())
         recyclerView.adapter = productAdapter
 
-        // 🔗 Firebase reference
+        // 🔗 Firebase reference (root)
         databaseRef = FirebaseDatabase.getInstance(
             "https://stylegenie-9c50a-default-rtdb.asia-southeast1.firebasedatabase.app"
         ).reference
@@ -120,7 +120,6 @@ class HomeActivity : AppCompatActivity() {
         })
     }
 
-
     private fun fetchProductsByGender(gender: String) {
         progressBar.visibility = View.VISIBLE
         databaseRef.addListenerForSingleValueEvent(object : ValueEventListener {
@@ -129,7 +128,7 @@ class HomeActivity : AppCompatActivity() {
                 for (productSnapshot in snapshot.children) {
                     val product = productSnapshot.getValue(Product::class.java)
                     if (product != null && product.gender.equals(gender, ignoreCase = true)) {
-                        product.id = productSnapshot.key ?: "" // ✅ Set ID
+                        product.id = productSnapshot.key ?: ""
                         productList.add(product)
                     }
                 }
@@ -152,7 +151,6 @@ class HomeActivity : AppCompatActivity() {
                 for (productSnapshot in snapshot.children) {
                     val product = productSnapshot.getValue(Product::class.java)
                     if (product != null && product.category.equals(category, ignoreCase = true)) {
-                        product.id = productSnapshot.key ?: "" // ✅ Set ID
                         productList.add(product)
                     }
                 }
@@ -166,7 +164,6 @@ class HomeActivity : AppCompatActivity() {
             }
         })
     }
-
 
     private fun filterProducts(query: String) {
         val lowercaseQuery = query.trim().lowercase()

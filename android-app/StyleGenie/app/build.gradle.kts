@@ -60,6 +60,7 @@ dependencies {
 
     // Glide for image loading
     implementation("com.github.bumptech.glide:glide:4.16.0")
+    implementation(libs.firebase.auth.ktx)
     kapt("com.github.bumptech.glide:compiler:4.16.0")
 
     // JSON Parsing
