@@ -50,17 +50,15 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.cardview:cardview:1.0.0")
-    implementation("com.google.android.material:material:1.9.0")
-    implementation("com.google.android.material:material:1.11.0")
-
+    implementation("com.google.android.material:material:1.11.0") // Keep only one
 
     // Firebase
+    implementation("com.google.firebase:firebase-auth:22.3.1") // ✅ Auth
     implementation("com.google.firebase:firebase-analytics:21.6.1")
     implementation("com.google.firebase:firebase-database-ktx:20.3.0")
 
-    // Glide for image loading
+    // Glide
     implementation("com.github.bumptech.glide:glide:4.16.0")
-    implementation(libs.firebase.auth.ktx)
     kapt("com.github.bumptech.glide:compiler:4.16.0")
 
     // JSON Parsing

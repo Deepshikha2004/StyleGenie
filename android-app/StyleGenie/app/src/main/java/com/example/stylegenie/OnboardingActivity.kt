@@ -11,7 +11,7 @@ class OnboardingActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.onboarding)
+        setContentView(R.layout.activity_onboarding)
 
         // ⏳ Splash delay (2 seconds)
         Handler(Looper.getMainLooper()).postDelayed({

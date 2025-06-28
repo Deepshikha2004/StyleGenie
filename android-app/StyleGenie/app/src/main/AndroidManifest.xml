@@ -17,25 +17,29 @@
         android:theme="@style/Theme.StyleGenie"
         tools:targetApi="31">
 
-        <!-- ✅ Splash/Onboarding is the launcher -->
+        <!-- ✅ Splash/Onboarding screen is the launcher -->
         <activity
             android:name=".OnboardingActivity"
             android:exported="true"
-            android:theme="@style/Theme.StyleGenie"> <!-- Or use a splash style -->
+            android:theme="@style/Theme.StyleGenie"> <!-- Optional: Use a splash style -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <!-- Other screens -->
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".SignupActivity" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".FavoritesActivity" />
-        <activity android:name=".ProductDetailActivity" />
-        <activity android:name=".ChatBotActivity" />
-        <activity android:name=".ProfileActivity" />
+        <!-- 🔐 Login + Signup screens -->
+        <activity android:name=".LoginActivity" android:exported="true"/>
+        <activity android:name=".SignupActivity" android:exported="true"/>
+
+        <!-- 🏠 Home -->
+        <activity android:name=".HomeActivity" android:exported="true"/>
+
+        <!-- 📦 Other screens -->
+        <activity android:name=".FavoritesActivity" android:exported="true"/>
+        <activity android:name=".ProductDetailActivity" android:exported="true"/>
+        <activity android:name=".ChatBotActivity" android:exported="true"/>
+        <activity android:name=".ProfileActivity" android:exported="true"/>
 
     </application>
 
