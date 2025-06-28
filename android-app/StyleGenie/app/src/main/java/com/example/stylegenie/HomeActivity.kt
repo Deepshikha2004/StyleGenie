@@ -4,13 +4,14 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.chip.Chip
+import com.google.android.material.chip.ChipGroup
 import com.google.firebase.database.*
 
 class HomeActivity : AppCompatActivity() {
@@ -20,13 +21,7 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var bottomNavigationView: BottomNavigationView
     private lateinit var databaseRef: DatabaseReference
     private lateinit var progressBar: ProgressBar
-    private lateinit var btnAll: Button
-    private lateinit var btnMens: Button
-    private lateinit var btnWomens: Button
-    private lateinit var btnShirt: Button
-    private lateinit var btnPant: Button
-    private lateinit var btnDress: Button
-
+    private lateinit var chipGroup: ChipGroup
 
     private val productList = mutableListOf<Product>()
 
@@ -38,13 +33,7 @@ class HomeActivity : AppCompatActivity() {
         progressBar = findViewById(R.id.progressBar)
         recyclerView = findViewById(R.id.rvProducts)
         bottomNavigationView = findViewById(R.id.bottomNav)
-        btnAll = findViewById(R.id.btnAll)
-        btnMens = findViewById(R.id.btnMens)
-        btnWomens = findViewById(R.id.btnWomens)
-        btnShirt = findViewById(R.id.btnShirt)
-        btnPant = findViewById(R.id.btnPant)
-        btnDress = findViewById(R.id.btnDress)
-
+        chipGroup = findViewById(R.id.chipGroupCategories)
 
         // 🔄 Setup RecyclerView
         recyclerView.layoutManager = GridLayoutManager(this, 2)
@@ -52,83 +41,76 @@ class HomeActivity : AppCompatActivity() {
         productAdapter = ProductAdapter(productList)
         recyclerView.adapter = productAdapter
 
-        // 🔗 Firebase reference (Correct regional URL)
+        // 🔗 Firebase reference
         databaseRef = FirebaseDatabase.getInstance(
             "https://stylegenie-9c50a-default-rtdb.asia-southeast1.firebasedatabase.app"
-        ).reference // <-- this points to the root where 0, 1, 2... are
+        ).reference
 
-
-        // 🚀 Fetch products
-        fetchProductsFromFirebase()
-
+        // 🔧 Category filter logic
         setupCategoryFilters()
 
+        // 🚀 Initial load
+        fetchProductsFromFirebase()
 
-        // 🔧 Setup bottom nav
+        // 🔧 Bottom nav
         setupBottomNav()
     }
 
     private fun setupCategoryFilters() {
-        btnAll.setOnClickListener {
-            fetchProductsFromFirebase()  // Load all
-        }
-
-        btnMens.setOnClickListener {
-            fetchProductsByGender("Men")
-        }
-
-        btnWomens.setOnClickListener {
-            fetchProductsByGender("Women")
-        }
-
-        btnShirt.setOnClickListener {
-            fetchProductsByCategory("Shirt")
-        }
-
-        btnPant.setOnClickListener {
-            fetchProductsByCategory("Pant")
-        }
-
-        btnDress.setOnClickListener {
-            fetchProductsByCategory("Dress")
+        chipGroup.setOnCheckedChangeListener { _, checkedId ->
+            animateAndLoad {
+                when (checkedId) {
+                    R.id.chipAll -> fetchProductsFromFirebase()
+                    R.id.chipMens -> fetchProductsByGender("Men")
+                    R.id.chipWomens -> fetchProductsByGender("Women")
+                    R.id.chipShirt -> fetchProductsByCategory("Sweaters")
+                    R.id.chipPant -> fetchProductsByCategory("Pants")
+                    R.id.chipDress -> fetchProductsByCategory("Dresses")
+                }
+            }
         }
     }
 
+    private fun animateAndLoad(loadAction: () -> Unit) {
+        recyclerView.animate()
+            .alpha(0f)
+            .setDuration(150)
+            .withEndAction {
+                loadAction()
+                recyclerView.animate().alpha(1f).setDuration(200).start()
+            }.start()
+    }
 
     private fun fetchProductsFromFirebase() {
         progressBar.visibility = View.VISIBLE
 
-        databaseRef.orderByKey().limitToFirst(20)
-            .addListenerForSingleValueEvent(object : ValueEventListener {
-                override fun onDataChange(snapshot: DataSnapshot) {
-                    productList.clear()
+        databaseRef.addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                productList.clear()
 
-                    if (!snapshot.exists()) {
-                        Toast.makeText(this@HomeActivity, "No products found", Toast.LENGTH_SHORT).show()
-                        progressBar.visibility = View.GONE
-                        return
-                    }
-
-                    for (productSnapshot in snapshot.children) {
-                        Log.d("HomeActivity", "Snapshot Key: ${productSnapshot.key}")
-                        Log.d("HomeActivity", "Snapshot Value: ${productSnapshot.value}")
-
-                        val product = productSnapshot.getValue(Product::class.java)
-                        product?.let { productList.add(it) }
-                    }
-
-                    productAdapter.notifyDataSetChanged()
+                if (!snapshot.exists()) {
+                    Toast.makeText(this@HomeActivity, "No products found", Toast.LENGTH_SHORT).show()
                     progressBar.visibility = View.GONE
-
-                    Log.d("HomeActivity", "Fetched ${productList.size} products")
+                    return
                 }
 
-                override fun onCancelled(error: DatabaseError) {
-                    Toast.makeText(this@HomeActivity, "Failed to fetch products", Toast.LENGTH_SHORT).show()
-                    Log.e("HomeActivity", "Firebase error: ${error.message}")
-                    progressBar.visibility = View.GONE
+                for (productSnapshot in snapshot.children) {
+                    val product = productSnapshot.getValue(Product::class.java)
+                    product?.let { productList.add(it) }
                 }
-            })
+
+                productList.shuffle() // Mix gender data
+                productAdapter.notifyDataSetChanged()
+                progressBar.visibility = View.GONE
+                Log.d("HomeActivity", "Fetched ${productList.size} products")
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                Toast.makeText(this@HomeActivity, "Failed to fetch products", Toast.LENGTH_SHORT).show()
+                Log.e("HomeActivity", "Firebase error: ${error.message}")
+                progressBar.visibility = View.GONE
+            }
+        })
     }
 
     private fun fetchProductsByGender(gender: String) {
@@ -175,17 +157,14 @@ class HomeActivity : AppCompatActivity() {
         })
     }
 
-
     private fun setupBottomNav() {
         bottomNavigationView.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_home -> true
-
                 R.id.nav_favorites -> {
                     startActivity(Intent(this, FavoritesActivity::class.java))
                     true
                 }
-
                 R.id.nav_cart -> {
                     val intent = Intent(this, ChatBotActivity::class.java).apply {
                         flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
@@ -194,16 +173,13 @@ class HomeActivity : AppCompatActivity() {
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
                     true
                 }
-
                 R.id.nav_profile -> {
                     startActivity(Intent(this, ProfileActivity::class.java))
                     true
                 }
-
                 else -> false
             }
         }
-
         bottomNavigationView.selectedItemId = R.id.nav_home
     }
 }
