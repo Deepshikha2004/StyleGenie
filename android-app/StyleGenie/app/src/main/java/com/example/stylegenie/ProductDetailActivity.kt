@@ -36,36 +36,28 @@ class ProductDetailActivity : AppCompatActivity() {
         btnBuyNow = findViewById(R.id.btnBuyNow)
         btnBack = findViewById(R.id.btnBack)
 
-        // ✅ Get intent data (match keys from adapter)
-        val name = intent.getStringExtra("name") ?: "Sample Product"
-        val price = intent.getStringExtra("price") ?: "₹0"
-        val description = intent.getStringExtra("description") ?: "No description available."
-        val imgPath = intent.getStringExtra("img_path") ?: ""
-        val imageList = intent.getStringArrayListExtra("imageList") ?: arrayListOf()
+        // ✅ Get Product from intent
+        val product = intent.getSerializableExtra("product") as? Product
 
-        // Set product info
-        textProductName.text = name
-        textProductPrice.text = price
-        textProductDescription.text = description
+        if (product != null) {
+            textProductName.text = product.category
+            textProductPrice.text = "₹${product.price}"
+            textProductDescription.text = product.description
 
-        // Build valid image URL from GitHub raw link
-        val firstImageUrl = if (imageList.isNotEmpty()) {
-            "$imgPath/${imageList[0]}"
-                .replace("github.com", "raw.githubusercontent.com")
-                .replace("/tree/", "/")
-        } else ""
+            val imageUrl = if (product.images.isNotEmpty()) {
+                "${product.img_path}/${product.images[0]}"
+                    .replace("github.com", "raw.githubusercontent.com")
+                    .replace("/tree/", "/")
+            } else ""
 
-        // Load image
-        if (firstImageUrl.isNotEmpty()) {
-            Glide.with(this).load(firstImageUrl).into(imageProduct)
+            if (imageUrl.isNotEmpty()) {
+                Glide.with(this).load(imageUrl).into(imageProduct)
+            } else {
+                imageProduct.setImageResource(R.drawable.fashion_image2) // fallback
+            }
         } else {
-            imageProduct.setImageResource(R.drawable.fashion_image2)
-        }
-
-        // Back button
-        btnBack.setOnClickListener {
+            Toast.makeText(this, "Error: Product data missing", Toast.LENGTH_SHORT).show()
             finish()
-            overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
         }
 
         // Quantity logic
@@ -86,11 +78,25 @@ class ProductDetailActivity : AppCompatActivity() {
         }
 
         btnAddToCart.setOnClickListener {
-            Toast.makeText(this, "$name added to bag (x$quantity)", Toast.LENGTH_SHORT).show()
+            Toast.makeText(
+                this,
+                "${product?.category ?: "Product"} added to cart (x$quantity)",
+                Toast.LENGTH_SHORT
+            ).show()
         }
 
         btnBuyNow.setOnClickListener {
-            Toast.makeText(this, "Proceeding to buy $name (x$quantity)", Toast.LENGTH_SHORT).show()
+            Toast.makeText(
+                this,
+                "Proceeding to buy ${product?.category ?: "product"} (x$quantity)",
+                Toast.LENGTH_SHORT
+            ).show()
+        }
+
+        // Back button
+        btnBack.setOnClickListener {
+            finish()
+            overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
         }
     }
 }

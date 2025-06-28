@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header with background -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/bg_signup">
+
+            <ImageView
+                android:id="@+id/bgHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_signup"
+                android:contentDescription="Header" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_person"
+                app:civ_border_width="2dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                app:civ_border_color="@color/purple_700" />
+        </RelativeLayout>
+
+        <!-- User Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                style="@style/ProfileLabel"
+                android:text="Full Name" />
+
+            <EditText
+                android:id="@+id/etName"
+                style="@style/ProfileValue"
+                android:hint="Your Name"
+                android:minHeight="48dp" />
+
+            <TextView
+                style="@style/ProfileLabel"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                style="@style/ProfileValue"
+                android:hint="your@email.com"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp" />
+
+            <TextView
+                style="@style/ProfileLabel"
+                android:text="Phone Number" />
+
+            <EditText
+                android:id="@+id/etPhone"
+                style="@style/ProfileValue"
+                android:hint="Your Phone"
+                android:inputType="phone"
+                android:minHeight="48dp" />
+
+            <TextView
+                style="@style/ProfileLabel"
+                android:text="Address" />
+
+            <EditText
+                android:id="@+id/etAddress"
+                style="@style/ProfileValue"
+                android:hint="Enter your address"
+                android:inputType="textPostalAddress"
+                android:minHeight="48dp" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/purple_700" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

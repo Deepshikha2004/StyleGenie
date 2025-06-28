@@ -2,9 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
     <!-- Permissions -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" tools:targetApi="33" /> <!-- Android 13+ -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Optional if using camera in future -->
 
     <application
         android:allowBackup="true"
@@ -17,30 +22,29 @@
         android:theme="@style/Theme.StyleGenie"
         tools:targetApi="31">
 
-        <!-- ✅ Splash/Onboarding screen is the launcher -->
+        <!-- 🟣 Onboarding as launcher -->
         <activity
             android:name=".OnboardingActivity"
             android:exported="true"
-            android:theme="@style/Theme.StyleGenie"> <!-- Optional: Use a splash style -->
+            android:theme="@style/Theme.StyleGenie">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <!-- 🔐 Login + Signup screens -->
-        <activity android:name=".LoginActivity" android:exported="true"/>
-        <activity android:name=".SignupActivity" android:exported="true"/>
+        <!-- 🔐 Auth screens -->
+        <activity android:name=".LoginActivity" android:exported="true" />
+        <activity android:name=".SignupActivity" android:exported="true" />
 
         <!-- 🏠 Home -->
-        <activity android:name=".HomeActivity" android:exported="true"/>
+        <activity android:name=".HomeActivity" android:exported="true" />
 
-        <!-- 📦 Other screens -->
-        <activity android:name=".FavoritesActivity" android:exported="true"/>
-        <activity android:name=".ProductDetailActivity" android:exported="true"/>
-        <activity android:name=".ChatBotActivity" android:exported="true"/>
-        <activity android:name=".ProfileActivity" android:exported="true"/>
+        <!-- 📦 Others -->
+        <activity android:name=".FavoritesActivity" android:exported="true" />
+        <activity android:name=".ProductDetailActivity" android:exported="true" />
+        <activity android:name=".ChatBotActivity" android:exported="true" />
+        <activity android:name=".ProfileActivity" android:exported="true" />
 
     </application>
-
 </manifest>

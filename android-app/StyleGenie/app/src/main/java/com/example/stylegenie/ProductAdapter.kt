@@ -86,11 +86,7 @@ class ProductAdapter(
         holder.itemView.setOnClickListener {
             val context = holder.itemView.context
             val intent = Intent(context, ProductDetailActivity::class.java).apply {
-                putExtra("category", product.category)
-                putExtra("price", "₹${product.price}")
-                putExtra("description", product.description)
-                putExtra("img_path", product.img_path)
-                putStringArrayListExtra("imageList", ArrayList(product.images))
+                putExtra("product", product) // ✅ pass entire Product object
             }
             context.startActivity(intent)
 
@@ -101,6 +97,8 @@ class ProductAdapter(
                 )
             }
         }
+
+
     }
 
     override fun getItemCount(): Int = productList.size
