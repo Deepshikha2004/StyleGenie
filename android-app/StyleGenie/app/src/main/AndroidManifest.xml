@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.stylegenie">
 
-
+    <!-- Features and Permissions -->
     <uses-feature android:name="android.hardware.camera" android:required="false" />
-    <!-- Permissions -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" tools:targetApi="33" /> <!-- Android 13+ -->
-    <uses-permission android:name="android.permission.CAMERA" /> <!-- Optional if using camera in future -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" tools:targetApi="33" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -20,6 +20,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StyleGenie"
+        android:networkSecurityConfig="@xml/network_security_config"
         tools:targetApi="31">
 
         <!-- 🟣 Onboarding as launcher -->

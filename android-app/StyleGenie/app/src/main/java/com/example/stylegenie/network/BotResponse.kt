@@ -6,6 +6,7 @@ data class FashionImage(
 )
 
 data class BotResponse(
-    val bot_response: String,
+    val message: String,
     val images: List<FashionImage>
+
 )

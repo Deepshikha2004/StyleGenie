@@ -14,6 +14,7 @@ import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
 import com.example.stylegenie.network.RetrofitInstance
 import com.example.stylegenie.network.BotResponse
+import com.example.stylegenie.network.FashionImage
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
 import okhttp3.RequestBody.Companion.asRequestBody
@@ -43,7 +44,6 @@ class ChatBotActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chat_bot)
 
-        // Bind views
         chatContainer = findViewById(R.id.chatContainer)
         imagePreview = findViewById(R.id.imagePreview)
         inputEditText = findViewById(R.id.inputEditText)
@@ -130,14 +130,13 @@ class ChatBotActivity : AppCompatActivity() {
     }
 
     private fun sendTextToBot(query: String) {
-        val body = mapOf("query" to query)
-        RetrofitInstance.api.getFashionByText(body).enqueue(object : Callback<BotResponse> {
+        RetrofitInstance.api.searchByText(query).enqueue(object : Callback<BotResponse> {
             override fun onResponse(call: Call<BotResponse>, response: Response<BotResponse>) {
                 if (response.isSuccessful) {
                     val result = response.body()
                     result?.let {
-                        addMessage(it.bot_response, isUser = false)
-                        it.images.forEach { image ->
+                        addMessage(it.message, isUser = false)
+                        it.images?.forEach { image ->
                             addBotImage(image.image_url)
                         }
                     }
@@ -154,15 +153,15 @@ class ChatBotActivity : AppCompatActivity() {
 
     private fun uploadImage(file: File) {
         val requestFile = file.asRequestBody("image/*".toMediaTypeOrNull())
-        val multipart = MultipartBody.Part.createFormData("file", file.name, requestFile)
+        val multipart = MultipartBody.Part.createFormData("image", file.name, requestFile)
 
-        RetrofitInstance.api.getFashionByImage(multipart).enqueue(object : Callback<BotResponse> {
+        RetrofitInstance.api.searchByImage(multipart).enqueue(object : Callback<BotResponse> {
             override fun onResponse(call: Call<BotResponse>, response: Response<BotResponse>) {
                 if (response.isSuccessful) {
                     val result = response.body()
                     result?.let {
-                        addMessage(it.bot_response, isUser = false)
-                        it.images.forEach { image ->
+                        addMessage(it.message, isUser = false)
+                        it.images?.forEach { image ->
                             addBotImage(image.image_url)
                         }
                     }

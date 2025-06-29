@@ -1,18 +1,19 @@
 package com.example.stylegenie.network
 
+import ApiService
 import FashionApiService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitInstance {
-
-    private const val BASE_URL = "http://192:168:206:158:8000/" // Use actual IP for physical device
-
-    val api: FashionApiService by lazy {
+    private val retrofit by lazy {
         Retrofit.Builder()
-            .baseUrl(BASE_URL)
+            .baseUrl("http://192.168.206.239:8000/")  // 🔁 Replace with your PC IP
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-            .create(FashionApiService::class.java)
+    }
+
+    val api: ApiService by lazy {
+        retrofit.create(ApiService::class.java)
     }
 }
